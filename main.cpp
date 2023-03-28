@@ -1,19 +1,9 @@
-#include <iostream>
-#include <string>
-#include <fstream>
-#include <tuple>
-#include <vector>
-
-using namespace std;
-
-const string file1 = "NomeRG10.txt";
-const string file2 = "NomeRG1M.txt";
-const string file3 = "NomeRG100M.txt";
+#include "vectlib.h"
 
 class Manipulate
 {
   vector<tuple <string, int>> result = {};
-
+  
   public:
     Manipulate(vector<tuple <string, int>> temp)
     {
@@ -22,7 +12,6 @@ class Manipulate
     static vector<tuple <string, int>> insert(tuple <string, int>, int index = 0)
     {
       vector<tuple <string, int>> temp = {}; 
-      
       return temp;
     }
 };
@@ -48,7 +37,7 @@ tuple <string, int> makeTuple (string line)
   }
   flag--;
   int nrg = stoi(rg);
-  return make_tuple(name, nrg);
+  return tuple<string, int>(name, nrg);
 }
 
 vector<tuple <string, int>> readFile(string fileName)
@@ -75,21 +64,50 @@ vector<tuple <string, int>> readFile(string fileName)
   return vet;
 }
 
-int main() {
-  vector<tuple <string, int>> result = {};
+int menu()
+{
+  int option = 0;
+  cout <<"TRABALHO 01" << '\n';
+  cout << "----- DGITE O NUMERO DA OPÇÂO DESEJADA -----" << '\n';
+  cout << "{01} - Buscar um nome a partir de um RG: " << '\n';
+  cout << "{02} - Buscar um RG a partir de um NOME: " << '\n';
+  cout << "{03} - Inserir uma amostra no incio: " << '\n';
+  cout << "{04} - Remover uma amostra no incio: " << '\n';
+  cout << "{05} - Inserir uma amostra no fim: " << '\n';
+  cout << "{06} - Remover uma amostra no fim: " << '\n';
+  cout << "{07} - Inserir uma amostra em uma posição: " << '\n';
+  cout << "{08} - Remover uma amostra em uma posição: " << '\n';
+  cin >> option;
+  return option;
+}
 
-
-  Manipulate *lista = new Manipulate(&result);
-  result = readFile(file1);
-  for (auto elem : result) 
+void createFile(string name, vector<tuple <string, int>> temp)
+{
+  ofstream myfile (name + ".txt");
+  for (auto elem : temp) 
   {
     int num = get<1>(elem);
     string str = get<0>(elem);
-    cout << str << "," << num << endl;
+    myfile << str << "," << num << endl;
   }
+}
+vector<tuple <string, int>> insert(vector<tuple <string, int>> temp, int index = 0)
+{
+  
+}
 
-  // int num;
-  // string nome;
-  // tie(nome, num) = result[0];
-  // cout << get<1>(result[0]);
+
+int main() {
+
+  int x = menu();
+  cout << x;
+  vector<tuple <string, int>> result = {};
+  result = readFile(file1);
+  createFile("resultado", result);
+  // for (auto elem : result) 
+  // {
+  //   int num = get<1>(elem);
+  //   string str = get<0>(elem);
+  //   cout << str << "," << num << endl;
+  // }
 }
