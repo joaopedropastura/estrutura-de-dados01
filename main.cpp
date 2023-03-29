@@ -2,108 +2,56 @@
 
 class Manipulate
 {
-  vector<tuple <string, int>> result = {};
-  
+  private: 
+    vector<tuple <string, int>> result = {};
+
   public:
     Manipulate(vector<tuple <string, int>> temp)
     {
       this -> result = temp;
     }      
-    static vector<tuple <string, int>> insert(tuple <string, int>, int index = 0)
+    void insert(string value, int index)
     {
-      vector<tuple <string, int>> temp = {}; 
-      return temp;
+      tuple<string, int>nValue = makeTuple(value);
+      bool flag = false;
+      for (int i = 0; i < result.size() + 1; i++) 
+      {
+        
+        auto temp = result[i - 1];
+        if (i >= index)
+        {
+          if(i == index)
+          {
+            result.resize(result.size() + 1);
+            result[i] = nValue;
+            flag = true;
+          }
+          else
+           result[i] = flag ? temp : result[i];
+          // temp[i] = result[flag ? i-1 : i];
+        // i == index ? temp[i] = nValue : temp[i] = result[i] ;
+        }
+      }
+    }
+    vector<tuple <string, int>> getVect()
+    {
+      return result;
     }
 };
 
-void addVector(tuple<string, int> value, vector<tuple <string, int>> &temp)
-{
-  temp.resize(temp.size() + 1);
-  temp[temp.size() - 1] = value;
-}
-
-tuple <string, int> makeTuple (string line)
-{
-  int i = -1, flag = 0;
-  string name = "", rg = "";
-  while (line[++i] != '\0')
-  {
-    if (line[i] == ',') 
-    {
-      flag++;
-      i++;
-    } 
-    flag == 0 ? name += line[i] : rg += line[i];
-  }
-  flag--;
-  int nrg = stoi(rg);
-  return tuple<string, int>(name, nrg);
-}
-
-vector<tuple <string, int>> readFile(string fileName)
-{
-  vector<tuple <string, int>> vet;
-  ifstream myFile(fileName);
-  string fileContent, line, tempLine = "";
+// vector<t         le <string, int>> insert(vector<tuple <string, int>> temp, int index = 0)
+// {
   
-  if (myFile.is_open())
-  {
-    while (!myFile.eof())
-    {
-      int i = -1;
-      getline(myFile, line);
-      if (line[0] == '\0' || line[0] == '\n')
-        break;
-      while (line[++i] != '\0')
-        tempLine += line[i];
-      addVector(makeTuple(tempLine), vet);
-      tempLine = "";
-    }
-  }
-  myFile.close();
-  return vet;
-}
-
-int menu()
-{
-  int option = 0;
-  cout <<"TRABALHO 01" << '\n';
-  cout << "----- DGITE O NUMERO DA OPÇÂO DESEJADA -----" << '\n';
-  cout << "{01} - Buscar um nome a partir de um RG: " << '\n';
-  cout << "{02} - Buscar um RG a partir de um NOME: " << '\n';
-  cout << "{03} - Inserir uma amostra no incio: " << '\n';
-  cout << "{04} - Remover uma amostra no incio: " << '\n';
-  cout << "{05} - Inserir uma amostra no fim: " << '\n';
-  cout << "{06} - Remover uma amostra no fim: " << '\n';
-  cout << "{07} - Inserir uma amostra em uma posição: " << '\n';
-  cout << "{08} - Remover uma amostra em uma posição: " << '\n';
-  cin >> option;
-  return option;
-}
-
-void createFile(string name, vector<tuple <string, int>> temp)
-{
-  ofstream myfile (name + ".txt");
-  for (auto elem : temp) 
-  {
-    int num = get<1>(elem);
-    string str = get<0>(elem);
-    myfile << str << "," << num << endl;
-  }
-}
-vector<tuple <string, int>> insert(vector<tuple <string, int>> temp, int index = 0)
-{
-  
-}
-
-
+// }
 int main() {
 
-  int x = menu();
-  cout << x;
   vector<tuple <string, int>> result = {};
   result = readFile(file1);
-  createFile("resultado", result);
+  Manipulate m(result);
+  m.insert("joao paulo,10009943", 3);
+  int x  = menu();
+  cout << x;
+  createFile("resultado", m.getVect());
   // for (auto elem : result) 
   // {
   //   int num = get<1>(elem);
