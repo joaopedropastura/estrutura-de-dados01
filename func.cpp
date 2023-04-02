@@ -52,7 +52,7 @@ int menu()
 {
   int option = 0;
   cout <<"TRABALHO 01" << '\n';
-  cout << "----- DGITE O NUMERO DA OPÇÂO DESEJADA -----" << '\n';
+  cout << "----- DIGITE O NUMERO DA OPÇÂO DESEJADA -----" << '\n';
   cout << "{01} - Buscar um nome a partir de um RG: " << '\n';
   cout << "{02} - Buscar um RG a partir de um NOME: " << '\n';
   cout << "{03} - Inserir uma amostra no incio: " << '\n';
