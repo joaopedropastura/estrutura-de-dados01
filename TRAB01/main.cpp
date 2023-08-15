@@ -28,17 +28,31 @@ class	Node
 		UserData data;
 		Node(UserData userData) : data(userData), next(nullptr) {}
 };
+
 class	Linkedlist
 {
 	private:
-		Node *head;
+		Node* head;
 
 	public:
-		Linkedlist() { this->head = NULL; }
+		Linkedlist() : head(nullptr) {}
 
 	void insertNode(UserData userData)
 	{
-		Node 
+		Node* newNode = new Node(userData);
+		newNode->next = this->head;
+		head = newNode;
+	}
+
+
+	void printList()
+	{
+		Node* current = head;
+		while(current != nullptr)
+		{
+			cout << "Nome: " << current->data.name << endl << "RG: " << current->data.rg;
+			current = current->next;
+		}
 	}
 };
 
@@ -54,21 +68,32 @@ int	main()
 	ifstream file (fileName);
 	string string_line;
 	int n = 1;
-	// SequentialList *sl[] = sl[(SequentialList)malloc(n * sizeof(SequentialList))];
+	// SequentialList *sl = sl[(SequentialList)malloc(n * sizeof(SequentialList))];
 
-	if(file.is_open())
-		while(file.good())
-		{
-			file >> string_line;
-			cout << string_line + '\n';
-		}
+	// if(file.is_open())
+	// 	while(file.good())
+	// 	{
+	// 		file >> string_line;
+	// 		cout << string_line + '\n';
+	// 	}
 	UserData data;
+	UserData mariaclara;
+
+	mariaclara.name = "maria clara";
+	mariaclara.rg = "123456";
 
 	data.name = "Joao Pedro";
 	data.rg = "123456789";
 	Node node(data);
 
-	cout << node.data.name;
+	Linkedlist lk;
+
+
+	lk.insertNode(mariaclara);
+
+	lk.printList();
+
+
 
 	// SequentialList sl;
 	// SequentialList ll;
