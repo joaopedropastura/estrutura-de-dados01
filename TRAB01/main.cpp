@@ -7,20 +7,6 @@ class	UserData
 		string name;
 };
 
-// class	Node
-// {
-// 	Node *next;
-// 	public:
-// 		Node(string name, string rg)
-// 		{
-// 			this->user_data.name = name;
-// 			this->user_data.rg = rg;
-// 			this->next = NULL;
-// 		}
-// 	private:
-// 		UserData user_data;
-// };
-
 class	Node
 {
 	public:
@@ -44,6 +30,16 @@ class	Linkedlist
 		head = newNode;
 	}
 
+	void deleteNode(UserData userData)
+	{
+		Node* current = head;
+		Node* previous = nullptr;
+
+		while(current != nullptr)
+		{
+			
+		}
+	};
 
 	void printList()
 	{
@@ -79,6 +75,8 @@ int	main()
 	UserData data;
 	UserData mariaclara;
 
+	UserData data1{"ana laura", "2345678"};
+
 	mariaclara.name = "maria clara";
 	mariaclara.rg = "123456";
 
@@ -90,6 +88,8 @@ int	main()
 
 
 	lk.insertNode(mariaclara);
+	lk.insertNode(data);
+	lk.insertNode(data1);
 
 	lk.printList();
 
