@@ -1,8 +1,8 @@
 SRCS =		main.cpp
 
-NAME =		vect_lib
+NAME =		vect_lib.a
 
-CC =		g++
+CC =		g++ -std=c++17
 
 CFLAGS =	-Wall -Wextra -Werror
 
@@ -10,11 +10,12 @@ OBJS =		$(SRCS:.cpp=.o)
 
 RM =		rm -f
 
-.c.o:		${CC} ${CFLAGS} -c $< -o ${<:%.cpp=%.o}
-
-all:		$(NAME)
+.c.o:
+			${CC} ${CFLAGS} -c $< -o ${<:.cpp=.o}
 
 $(NAME):	$(OBJS) ar rcs $(NAME) $(OBJS)
+
+all:		$(NAME)
 
 clean:		$(RM) $(OBJS)
 

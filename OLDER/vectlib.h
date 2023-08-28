@@ -30,7 +30,7 @@ class Node
   }
 };
 
-class ordenateList 
+class ordenateList
 {
   public:
     ordenateList(vector<tuple<string, int>> temp);
@@ -43,7 +43,7 @@ class ordenateList
 
 class linkedList
 {
-  public: 
+  public:
     Node *head;
     linkedList();
     void addNode(int rg, string nome);
@@ -59,4 +59,5 @@ vector<tuple <string, int>> readFile(string fileName);
 void createFile(string name, vector<tuple <string, int>> temp);
 void addLinkedList (vector<tuple <string, int>> temp, linkedList *list);
 void addVector(tuple<string, int> value, vector<tuple <string, int>> &temp);
+
 #endif

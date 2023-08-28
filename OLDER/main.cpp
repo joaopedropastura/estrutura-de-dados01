@@ -17,19 +17,20 @@ void menuFile()
   cout << "{00} - Para encerrar o programa " << '\n';
 }
 
-string chooseFile()
-{
-  
-}
+// string chooseFile()
+// {
 
-int main() {  
-  
-  vector<tuple<string, int>> result = {};
+// }
+
+int main()
+{
+
+  vector<tuple<string, int> > result = {};
   string file =  file1;
   linkedList list;
   string name;
   int rg;
-  
+
   result = readFile(file);
   auto start = high_resolution_clock::now();
   addLinkedList(result, &list);
@@ -113,7 +114,7 @@ int main() {
     case 9:
       list.print();
       menu();
-    
+
   }
   createFile("resultado", m.getVect());
   end = high_resolution_clock::now();
