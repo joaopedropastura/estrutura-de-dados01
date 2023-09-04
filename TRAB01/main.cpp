@@ -32,8 +32,8 @@ class	Linkedlist
 		Node* newNode = new Node(userData);
 		if (count == 0)
 		{
-				tail = newNode;
-				head = newNode;
+			tail = newNode;
+			head = newNode;
 		}
 		if (flag == 0)
 		{
@@ -46,11 +46,10 @@ class	Linkedlist
 			newNode->prev = this->tail;
 			this->tail = newNode;
 		}
-
 		count++;
 	}
 
-	void deleteNode(UserData userData)
+	void deleteNode(string rg)
 	{
 		Node* current = head;
 		Node* previous = nullptr;
@@ -61,6 +60,7 @@ class	Linkedlist
 
 
 		}
+		count--;
 	};
 
 	void printList()
@@ -77,22 +77,68 @@ class	Linkedlist
 int	main()
 {
 	UserData data;
-	UserData mariaclara { "maria clara", "123456" };
-	UserData data1 { "ana laura", "2345678" };
-	UserData data2 { "fernanda", "09909090" };
-	data.name = "Joao Pedro";
-	data.rg = "123456789";
-	Node node(data);
-	Linkedlist lk;
+	// UserData mariaclara { "maria clara", 123456 };
+	// UserData data1 { "ana laura", 2345678 };
+	// UserData data2 { "fernanda", 9909090 };
+	// data.name = "Joao Pedro";
+	// data.rg = 123456789;
+	// Node node(data);
+	// Linkedlist lk;
 
-	lk.insertNode(mariaclara, 0);
-	lk.insertNode(data);
-	lk.insertNode(data1);
-	lk.insertNode(data1);
-	lk.insertNode(data2);
+	// lk.insertNode(mariaclara, 0);
+	// lk.insertNode(data);
+	// lk.insertNode(data1);
+	// lk.insertNode(data1);
+	// lk.insertNode(data2);
 
 	// cout << lk.count << endl;
 	// cout << lk.tail->data.name << endl;
 	// cout << lk.head->data.name;
-	lk.printList();
+	// lk.printList();
+
+
+	string fileName = "./db/NomeRG10.txt";
+	ifstream file (fileName);
+	string string_line, temp, name, rg;
+	int n = 0, flag = 0;
+
+	if(file.is_open())
+		while(file.good())
+		{
+			file >> temp;
+			string_line += temp + ';';
+			n++;
+		}
+
+	UserData test[n];
+
+	// cout << string_line;
+	temp = "";
+	n = 0;
+	for(int i = 0; i < string_line.length(); i++)
+	{
+		if(string_line.at(i) == ',')
+		{
+			test[n].name = temp;
+			temp = "";
+			continue;
+		}
+		if(string_line.at(i) == ';')
+		{
+			test[n].rg = temp;
+			temp = "";
+			n++;
+			continue;
+		}
+
+		temp += string_line.at(i);
+	}
+
+
+	for (UserData test : test)
+	{
+		cout << test.name << endl;
+		cout << test.rg << endl;
+	}
+
 }
