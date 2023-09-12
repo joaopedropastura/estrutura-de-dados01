@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 typedef struct
 {
@@ -22,17 +23,7 @@ typedef struct LinkedList
 
 } LinkedList;
 
-size_t	ft_strlen(const char *s)
-{
-	size_t	i;
-
-	i = 0;
-	while (s[i] != '\0')
-		i++;
-	return (i);
-}
-
-void insert_node(LinkedList *list, UserData data, int flag)
+void insert_node(LinkedList *list, UserData data, size_t pos)
 {
 	Node *newNode = (Node *)malloc(sizeof(Node));
 
@@ -49,36 +40,89 @@ void insert_node(LinkedList *list, UserData data, int flag)
 		list->tail = newNode;
 		list->head = newNode;
 	}
+	else if(pos == 0)
+	{
+		newNode->prev = NULL;
+		newNode->data = data;
+		newNode->next = list->head;
+		list->head->prev = newNode;
+		list->head = newNode;
+	}
+	else if(pos == -1)
+	{
+		list->tail->next = newNode;
+		newNode->prev = list->tail;
+		newNode->data = data;
+		newNode->next = NULL;
+		list->tail = newNode;
+	}
 	else
 	{
-		if(flag == 0)
+		int count = 0;
+		Node *current  = list->head;
+		if(pos > list->length && pos < -1)
 		{
-			newNode->prev = NULL;
-			newNode->data = data;
-			newNode->next = list->head;
-			list->head = newNode;
+			printf("posicao invalida\n");
+			exit(1);
 		}
-		if(flag == -1)
+		bool flag = flag < list->length/2 ? true : false;
+		if(!flag)
 		{
-			list->tail->next = newNode;
-			newNode->prev = list->tail;
-			newNode->data = data;
-			newNode->next = NULL;
-			list->tail = newNode;
+			current = list->tail;
+			pos = list->length - pos;
+		}
+		pos = pos - 1;
+		while(count <= pos)
+		{
+			if(count == pos)
+			{
+				newNode->prev = current;
+				newNode->data = data;
+				newNode->next = current->next;
+				current->next = newNode;
+			}
+			current = current->next;
+			count++;
 		}
 	}
-	// free(newNode);
 	list->length++;
 }
 
-void delete_node(LinkedList *list, int flag)
+void delete_node(LinkedList *list, int pos)
 {
-	if(flag == 0)
+	if(pos == 0 || pos == 1)
 		list->head = list->head->next;
-	if(flag == -1)
+	else if(pos == -1)
 	{
 		list->tail = list->tail->prev;
 		list->tail->next = NULL;
+	}
+	else
+	{
+		int count = 0;
+		Node *current = list->head;
+		if(pos > list->length && pos < -1)
+		{
+			printf("posicao invalida\n");
+			exit(1);
+		}
+		bool flag = flag < list->length/2 ? true : false;
+		if(!flag)
+		{
+			current = list->tail;
+			pos = list->length - pos;
+		}
+		pos = pos - 1;
+		while(count <= pos)
+		{
+			if(count == pos)
+			{
+				current->next->prev = current->prev;
+				current->prev->next = current->next;
+			}
+			current = current->next;
+			count++;
+		}
 	}
 	list->length--;
 }
@@ -96,10 +140,104 @@ void print_list(LinkedList *list)
 	}
 }
 
+int	ft_atoi(const char *nptr)
+{
+	int	i = 0;
+	int	num = 0;
+
+	while ((nptr[i] >= 9 && nptr[i] <= 13) || (nptr[i] == 32))
+		i++;
+	while (nptr[i] >= 48 && nptr[i] <= 57)
+	{
+		num = (num * 10) + (nptr[i] - 48);
+		i++;
+	}
+	return (num);
+}
+
+size_t	ft_strlen(const char *s)
+{
+	size_t	i;
+
+	i = 0;
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
+}
+
+void readFile(char *file)
+{
+	FILE *fp;
+	fp = fopen(file, "r");
+	if(fp == NULL)
+	{
+		printf("erro ao abrir o arquivo\n");
+		exit(1);
+	}
+	char *line = NULL;
+	size_t len = 0;
+	ssize_t read;
+	while((read = getline(&line, &len, fp)) != EOF)
+	{
+		UserData *newUser = (UserData *)malloc(sizeof(UserData));
+		if(!newUser)
+		{
+			printf("erro ao alocar memoria\n");
+			exit(1);
+		}
+		int i = 0, j = 0, l = 0;
+		char *rg = (char *)malloc(sizeof(char) * 9);
+		if (!rg)
+		{
+            printf("Erro ao alocar memória para rg\n");
+            exit(1);
+        }
+		char *name = (char *)malloc(sizeof(char) * (ft_strlen(line) - 8));
+		if (!name)
+		{
+            printf("Erro ao alocar memória para name\n");
+            exit(1);
+        }
+		int flag = 0;
+		while (line[i] != '\0')
+		{
+			if(line[i] == ',')
+				flag = 1;
+			else
+			{
+				if(flag)
+				{
+					rg[j] = line[i];
+					j++;
+				}
+				else
+				{
+					name[l] = line[i];
+					l++;
+				}
+			}
+			i++;
+		}
+		name[l] = '\0';
+		newUser->name = name;
+		newUser->rg = ft_atoi(rg);
+
+		printf("Nome: %s, RG: %i \n", newUser->name, newUser->rg);
+		free(rg);
+        free(newUser->name);
+        free(newUser);
+
+	}
+	fclose(fp);
+	if(line)
+		free(line);
+}
+
 int main()
 {
 	LinkedList list;
-
 	UserData joao;
 	joao.name = "joao pedro";
 	joao.rg = 22;
@@ -109,19 +247,35 @@ int main()
 	vitor.rg = 23;
 
 	UserData maria;
-	maria.name = "Maria clara";
+	maria.name = "Maria";
 	maria.rg = 21;
+
+	UserData clara;
+	clara.name = "clara";
+	clara.rg = 26;
 
 	list.length = 0;
 	list.head = NULL;
 	list.tail = NULL;
 
-	insert_node(&list, joao, 0);
-	insert_node(&list, vitor, 0);
-	insert_node(&list, maria, -1);
-	// delete_node(&list, 0);
+	// insert_node(&list, joao, 0);
+	// insert_node(&list, joao, 0);
+	// insert_node(&list, joao, 0);
+	// insert_node(&list, joao, 0);
+	// insert_node(&list, joao, 0);
+	// insert_node(&list, joao, 0);
+	// insert_node(&list, joao, 0);
+	// insert_node(&list, joao, 0);
+	// insert_node(&list, joao, 0);
+	// insert_node(&list, joao, 0);
+	// insert_node(&list, maria, 5);
+	// print_list(&list);
+	// printf("\n");
 
-	// printf("head: %s\ntail: %s\n", list.head->data.name, list.tail->data.name);
+	// delete_node(&list, -1);
+	// print_list(&list);
 
-	print_list(&list);
+	readFile("./db/NomeRG10.txt");
+
+	return 0;
 }
