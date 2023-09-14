@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <time.h>
 
 typedef struct
 {
@@ -164,7 +165,7 @@ size_t	ft_strlen(const char *s)
 	return (i);
 }
 
-void readFile(char *file)
+void readFile(LinkedList *list, char *file)
 {
 	FILE *fp;
 	fp = fopen(file, "r");
@@ -178,65 +179,82 @@ void readFile(char *file)
 	ssize_t read;
 	while((read = getline(&line, &len, fp)) != EOF)
 	{
-		UserData *newUser = (UserData *)malloc(sizeof(UserData));
-		if(!newUser)
-		{
-			printf("erro ao alocar memoria\n");
-			exit(1);
-		}
+
+		if(ft_strlen(line) < 9)
+			continue;
+		UserData newUser;
 		char *rg = (char *)malloc(sizeof(char) * 9);
-		if (!rg)
-		{
-            printf("Erro ao alocar memória para rg\n");
-            exit(1);
-        }
 		char *name = (char *)malloc(sizeof(char) * (ft_strlen(line) - 8));
-		if (!name)
-		{
-            printf("Erro ao alocar memória para name\n");
-            exit(1);
-        }
-		int i = 0, j = 0, l = 0, flag = 0;
+
+		int i = 0, j = 0, flag = 0;
 		while (line[i] != '\0')
 		{
 			if(line[i] == ',')
+			{
 				flag = 1;
-			else
+				j = 0;
+			} else
 			{
 				if(flag)
 					rg[j++] = line[i];
 				else
-					name[l++] = line[i];
+					name[j++] = line[i];
 			}
 			i++;
 		}
 
-		name[l] = '\0';
-		newUser->name = name;
-		newUser->rg = ft_atoi(rg);
-
-		printf("Nome: %s, RG: %i \n", newUser->name, newUser->rg);
-		free(rg);
-        free(newUser->name);
-        free(newUser);
-
+		name[j] = '\0';
+		newUser.name = name;
+		newUser.rg = ft_atoi(rg);
+		insert_node(list, newUser, -1);
 	}
 	fclose(fp);
-	if(line)
-		free(line);
+}
+
+
+void create_file(char *name, LinkedList *list)
+{
+	FILE *fp;
+
+	name = name == NULL ? "result.txt" : name;
+	fp = fopen(name, "w");
+	if(fp == NULL)
+	{
+		printf("erro ao criar o arquivo\n");
+		exit(1);
+	}
+	Node *current = list->head;
+	while(current != NULL)
+	{
+		fprintf(fp, "%s,%i\n", current->data.name, current->data.rg);
+		current = current->next;
+	}
+	fclose(fp);
 }
 
 int main()
 {
-	LinkedList *list = (LinkedList *)malloc(sizeof(LinkedList));
-	if (!list)
-	{
-		printf("erro ao alocar memoria\n");
-		exit(1);
-	}
 
 
-	readFile("./db/NomeRG10.txt");
+	LinkedList list;
+	list.length = 0;
+	list.head = NULL;
+	list.tail = NULL;
+
+	clock_t t;
+    t = clock();
+	readFile(&list, "./db/NomeRG10.txt");
+    t = clock() - t;
+	double cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
+
+    printf("readFile() took %f seconds to execute \n", cpu_time_used);
+
+	create_file("result.txt", &list);
+	insert_node(&list, (UserData){"teste", 123456789}, 0);
+	printf("tamanho da lista: %zu\n", list.length);
+	printf("head: %s, %i\n", list.head->data.name, list.head->data.rg);
+	printf("tail: %s, %i\n", list.tail->data.name, list.tail->data.rg);
+	// print_list(&list);
 
 	return 0;
 }
