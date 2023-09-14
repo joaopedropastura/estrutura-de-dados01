@@ -157,13 +157,10 @@ int	ft_atoi(const char *nptr)
 
 size_t	ft_strlen(const char *s)
 {
-	size_t	i;
+	size_t	i = 0;
 
-	i = 0;
 	while (s[i] != '\0')
-	{
 		i++;
-	}
 	return (i);
 }
 
@@ -187,7 +184,6 @@ void readFile(char *file)
 			printf("erro ao alocar memoria\n");
 			exit(1);
 		}
-		int i = 0, j = 0, l = 0;
 		char *rg = (char *)malloc(sizeof(char) * 9);
 		if (!rg)
 		{
@@ -200,7 +196,7 @@ void readFile(char *file)
             printf("Erro ao alocar memória para name\n");
             exit(1);
         }
-		int flag = 0;
+		int i = 0, j = 0, l = 0, flag = 0;
 		while (line[i] != '\0')
 		{
 			if(line[i] == ',')
@@ -208,18 +204,13 @@ void readFile(char *file)
 			else
 			{
 				if(flag)
-				{
-					rg[j] = line[i];
-					j++;
-				}
+					rg[j++] = line[i];
 				else
-				{
-					name[l] = line[i];
-					l++;
-				}
+					name[l++] = line[i];
 			}
 			i++;
 		}
+
 		name[l] = '\0';
 		newUser->name = name;
 		newUser->rg = ft_atoi(rg);
@@ -237,43 +228,13 @@ void readFile(char *file)
 
 int main()
 {
-	LinkedList list;
-	UserData joao;
-	joao.name = "joao pedro";
-	joao.rg = 22;
+	LinkedList *list = (LinkedList *)malloc(sizeof(LinkedList));
+	if (!list)
+	{
+		printf("erro ao alocar memoria\n");
+		exit(1);
+	}
 
-	UserData vitor;
-	vitor.name = "victor emanuel";
-	vitor.rg = 23;
-
-	UserData maria;
-	maria.name = "Maria";
-	maria.rg = 21;
-
-	UserData clara;
-	clara.name = "clara";
-	clara.rg = 26;
-
-	list.length = 0;
-	list.head = NULL;
-	list.tail = NULL;
-
-	// insert_node(&list, joao, 0);
-	// insert_node(&list, joao, 0);
-	// insert_node(&list, joao, 0);
-	// insert_node(&list, joao, 0);
-	// insert_node(&list, joao, 0);
-	// insert_node(&list, joao, 0);
-	// insert_node(&list, joao, 0);
-	// insert_node(&list, joao, 0);
-	// insert_node(&list, joao, 0);
-	// insert_node(&list, joao, 0);
-	// insert_node(&list, maria, 5);
-	// print_list(&list);
-	// printf("\n");
-
-	// delete_node(&list, -1);
-	// print_list(&list);
 
 	readFile("./db/NomeRG10.txt");
 
