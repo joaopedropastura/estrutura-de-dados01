@@ -165,7 +165,7 @@ size_t	ft_strlen(const char *s)
 	return (i);
 }
 
-void readFile(LinkedList *list, char *file)
+void read_file_to_linkedList(LinkedList *list, char *file)
 {
 	FILE *fp;
 	fp = fopen(file, "r");
@@ -212,6 +212,53 @@ void readFile(LinkedList *list, char *file)
 }
 
 
+void read_file_to_list(UserData **list, char *file)
+{
+	FILE *fp;
+	fp = fopen(file, "r");
+	if(fp == NULL)
+	{
+		printf("erro ao abrir o arquivo\n");
+		exit(1);
+	}
+	char *line = NULL;
+	size_t len = 0;
+	ssize_t read;
+	int i = 0;
+	*list = NULL;
+	while((read = getline(&line, &len, fp)) != EOF)
+	{
+		if(ft_strlen(line) < 9)
+			continue;
+
+		char *rg = (char *)malloc(sizeof(char) * 9);
+		char *name = (char *)malloc(sizeof(char) * (ft_strlen(line) - 8));
+		*list = (UserData *)realloc(*list, sizeof(UserData) * (i + 2));
+		int j = 0, flag = 0;
+		while (line[i] != '\0')
+		{
+			if(line[i] == ',')
+			{
+				flag = 1;
+				j = 0;
+			} else
+			{
+				if(flag)
+					rg[j++] = line[i];
+				else
+					name[j++] = line[i];
+			}
+			i++;
+		}
+		name[j] = '\0';
+		(*list)[i].name = name;
+		(*list)[i].rg = ft_atoi(rg);
+
+	}
+
+	fclose(fp);
+}
+
 void create_file(char *name, LinkedList *list)
 {
 	FILE *fp;
@@ -232,22 +279,51 @@ void create_file(char *name, LinkedList *list)
 	fclose(fp);
 }
 
+int menu()
+{
+	int option = 0;
+
+	printf("\nTRABALHO 01\n");
+	printf("----- DIGITE O NUMERO DA OPÇÂO DESEJADA -----\n");
+	printf("{00} - Para encerrar o programa ");
+	printf("{01} - Buscar um NOME a partir de um RG: \n");
+	printf("{02} - Buscar um RG a partir de um NOME: \n");
+	printf("{03} - Inserir uma amostra: \n");
+	printf("{04} - Remover uma amostra: \n");
+	printf("{05} - Imprimir lista  \n");
+	printf("1 - Inserir\n");
+	printf("2 - Remover\n");
+	printf("3 - Imprimir\n");
+	printf("4 - Sair\n");
+	printf("Digite uma opcao: ");
+
+	scanf("%i", &option);
+	return option;
+}
+
+
 int main()
 {
-
-
 	LinkedList list;
 	list.length = 0;
 	list.head = NULL;
 	list.tail = NULL;
+	UserData *data;
+
+	char *file = "./db/NomeRG100M.txt";
 
 	clock_t t;
-    t = clock();
-	readFile(&list, "./db/NomeRG10.txt");
-    t = clock() - t;
+	t = clock();
+	read_file_to_linkedList(&list, file);
+	t = clock() - t;
 	double cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
+	printf("read_file_to_linkedList() took %f seconds to execute \n", cpu_time_used);
 
-    printf("readFile() took %f seconds to execute \n", cpu_time_used);
+	t = clock();
+	read_file_to_list(&data, file);
+	t = clock() - t;
+	cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
+	printf("read_file_to_list() took %f seconds to execute \n", cpu_time_used);
 
 	create_file("result.txt", &list);
 	insert_node(&list, (UserData){"teste", 123456789}, 0);
