@@ -24,7 +24,7 @@ typedef struct LinkedList
 
 } LinkedList;
 
-void insert_node(LinkedList *list, UserData data, size_t pos)
+void insert_node_linkedList(LinkedList *list, UserData data, size_t pos)
 {
 	Node *newNode = (Node *)malloc(sizeof(Node));
 
@@ -206,7 +206,7 @@ void read_file_to_linkedList(LinkedList *list, char *file)
 		name[j] = '\0';
 		newUser.name = name;
 		newUser.rg = ft_atoi(rg);
-		insert_node(list, newUser, -1);
+		insert_node_linkedList(list, newUser, -1);
 	}
 	fclose(fp);
 }
@@ -285,22 +285,41 @@ int menu()
 
 	printf("\nTRABALHO 01\n");
 	printf("----- DIGITE O NUMERO DA OPÇÂO DESEJADA -----\n");
-	printf("{00} - Para encerrar o programa ");
+	printf("{00} - Para encerrar o programa \n");
 	printf("{01} - Buscar um NOME a partir de um RG: \n");
-	printf("{02} - Buscar um RG a partir de um NOME: \n");
-	printf("{03} - Inserir uma amostra: \n");
-	printf("{04} - Remover uma amostra: \n");
-	printf("{05} - Imprimir lista  \n");
-	printf("1 - Inserir\n");
-	printf("2 - Remover\n");
-	printf("3 - Imprimir\n");
-	printf("4 - Sair\n");
+	printf("{02} - Inserir uma amostra: \n");
+	printf("{03} - Remover uma amostra: \n");
+	printf("{04} - Imprimir lista  \n");
 	printf("Digite uma opcao: ");
 
 	scanf("%i", &option);
 	return option;
 }
 
+
+UserData search_rg_linkedList(LinkedList *list, int rg)
+{
+	Node *current = list->head;
+	while(current != NULL)
+	{
+		if(current->data.rg == rg)
+			return current->data;
+		current = current->next;
+	}
+	return (UserData){NULL, 0};
+}
+
+UserData serach_rg_list(UserData *list, int rg)
+{
+	int i = 0;
+	while(list[i].name != NULL)
+	{
+		if(list[i].rg == rg)
+			return list[i];
+		i++;
+	}
+	return (UserData){NULL, 0};
+}
 
 int main()
 {
@@ -310,27 +329,68 @@ int main()
 	list.tail = NULL;
 	UserData *data;
 
-	char *file = "./db/NomeRG100M.txt";
+	char *file = "./db/NomeRG10.txt";
 
 	clock_t t;
 	t = clock();
 	read_file_to_linkedList(&list, file);
 	t = clock() - t;
 	double cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
-	printf("read_file_to_linkedList() took %f seconds to execute \n", cpu_time_used);
+	printf("read_file_to_linkedList() levou %f segundos para ser executado \n", cpu_time_used);
 
 	t = clock();
 	read_file_to_list(&data, file);
 	t = clock() - t;
 	cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
-	printf("read_file_to_list() took %f seconds to execute \n", cpu_time_used);
+	printf("read_file_to_list() levou %f segundos para ser executado \n", cpu_time_used);
 
 	create_file("result.txt", &list);
-	insert_node(&list, (UserData){"teste", 123456789}, 0);
+	insert_node_linkedList(&list, (UserData){"teste", 123456789}, 0);
 	printf("tamanho da lista: %zu\n", list.length);
 	printf("head: %s, %i\n", list.head->data.name, list.head->data.rg);
 	printf("tail: %s, %i\n", list.tail->data.name, list.tail->data.rg);
 	// print_list(&list);
+	int rg;
+	switch (menu())
+	{
 
+	case 0:
+		printf("Encerrando o programa...\n");
+		break;
+	case 1:
+		printf("Digite o RG: ");
+		scanf("%i", &rg);
+		printf("Buscando um NOME a partir de um RG: \n");
+		t = clock();
+		UserData user = search_rg_linkedList(&list, rg);
+		t = clock() - t;
+		cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
+		printf("search_rg_linkedList() levou %f segundos para ser executado \n", cpu_time_used);
+		printf("Nome: %s, RG: %i \n", user.name, user.rg);
+		menu();
+	case 2:
+		printf("Inserindo uma amostra: \n");
+		printf("Digite o nome: ");
+		char *name = (char *)malloc(sizeof(char) * 100);
+		scanf("%s", name);
+		printf("Digite o RG: ");
+		scanf("%i", &rg);
+		t = clock();
+		insert_node_linkedList(&list, (UserData){name, rg}, -1);
+		t = clock() - t;
+		cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
+		printf("insert_node_linkedList() levou %f segundos para ser executado \n", cpu_time_used);
+		menu();
+	case 4:
+		printf("Imprimindo lista: \n");
+		t = clock();
+		print_list(&list);
+		t = clock() - t;
+		cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
+		printf("print_list() levou %f segundos para ser executado \n", cpu_time_used);
+		menu();
+	default:
+		break;
+	}
 	return 0;
 }
