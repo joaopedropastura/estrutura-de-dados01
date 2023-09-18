@@ -91,9 +91,9 @@ void insert_node_linkedList(LinkedList *list, UserData data, size_t pos)
 
 void insert_data_on_list(UserData **list, UserData data, int pos)
 {
-	int i = 0, lenght = 0;
+	int i = 2, lenght = (*list)[0].rg;
 
-	if((*list) == NULL)
+	if((*list)[1].name == NULL)
 	{
 		(*list) = (UserData *)malloc(sizeof(UserData) * 2);
 		(*list)[0] = (UserData){data.name, data.rg};
@@ -101,13 +101,10 @@ void insert_data_on_list(UserData **list, UserData data, int pos)
 		return;
 	}
 
-	while((*list)[lenght].name != NULL)
-		lenght++;
-
 	if(pos > lenght)
 	{
 		printf("posicao invalida\n");
-		exit(1);
+		return;
 	}
 
 	*list = (UserData *)realloc(*list, sizeof(UserData) * (lenght + 2));
@@ -122,7 +119,12 @@ void insert_data_on_list(UserData **list, UserData data, int pos)
 	}
 
 	else if(pos == -1)
+	{
 		(*list)[lenght] = (UserData){data.name, data.rg};
+		(*list)[lenght + 1] = (UserData){NULL, 0};
+		(*list)[0] = (UserData){"lenght", lenght + 1};
+		return;
+	}
 
 	else
 	{
@@ -334,7 +336,6 @@ void create_file(char *name, LinkedList *list)
 int menu()
 {
 	int option = 0;
-
 	printf("\nTRABALHO 01\n");
 	printf("----- DIGITE O NUMERO DA OPÇÂO DESEJADA -----\n");
 	printf("{00} - Para encerrar o programa \n");
@@ -343,8 +344,8 @@ int menu()
 	printf("{03} - Remover uma amostra: \n");
 	printf("{04} - Imprimir lista  \n");
 	printf("Digite uma opcao: ");
-
-	scanf("%i", &option);
+	int c;
+	while((c = getchar()) != '\n' && c != EOF);
 	return option;
 }
 
@@ -389,7 +390,10 @@ int main()
 	list.length = 0;
 	list.head = NULL;
 	list.tail = NULL;
-	UserData *data = NULL;
+	UserData *data;
+	data = (UserData *)malloc(sizeof(UserData) * 2);
+	data[0] = (UserData){"lenght", 0};
+	data[1] = (UserData){NULL, 0};
 
 	char *file = "./db/NomeRG10.txt";
 
