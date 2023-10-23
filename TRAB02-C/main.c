@@ -5,12 +5,6 @@
 
 #define clear() printf("\033[H\033[J")
 
-void flush_in()
-{
-   int ch;
-   while( (ch = fgetc(stdin)) != EOF && ch != '\n' ){}
-}
-
 typedef struct
 {
 	int comp;
@@ -43,6 +37,85 @@ typedef struct LinkedList
 	size_t length;
 
 } LinkedList;
+
+void flush_in()
+{
+   int ch;
+   while( (ch = fgetc(stdin)) != EOF && ch != '\n' ){}
+}
+
+Cost insertion_sort(UserData **list)
+{
+    int i = 2, j = 1, lenght = (*list)[0].rg;
+    Cost cost = {0, 0};
+
+    while(i <= lenght)
+    {
+        UserData aux = (*list)[i];
+        j = i - 1;
+        while(j >= 1 && (*list)[j].rg > aux.rg)
+        {
+            (*list)[j + 1] = (*list)[j];
+            j--;
+            cost.comp++;
+            cost.mov++;
+        }
+        (*list)[j + 1] = aux;
+        i++;
+        cost.mov++;
+    }
+    return cost;
+}
+
+Cost selection_sort(UserData **list)
+{
+    int i = 1, j = 1, min = 0, lenght = (*list)[0].rg;
+    Cost cost = {0, 0};
+
+    while(i <= lenght)
+    {
+        j = i + 1;
+        min = i;
+        while(j <= lenght)
+        {
+            if((*list)[j].rg < (*list)[min].rg)
+                min = j;
+            j++;
+            cost.comp++;
+        }
+        UserData aux = (*list)[i];
+        (*list)[i] = (*list)[min];
+        (*list)[min] = aux;
+        i++;
+        cost.mov++;
+    }
+    return cost;
+}
+
+Cost bubble_sort(UserData **list)
+{
+    int i = 1, j = 1, lenght = (*list)[0].rg;
+    Cost cost = {0, 0};
+
+    while(i <= lenght)
+    {
+        j = 1;
+        while(j <= lenght - i)
+        {
+            if((*list)[j].rg > (*list)[j + 1].rg)
+            {
+                UserData aux = (*list)[j];
+                (*list)[j] = (*list)[j + 1];
+                (*list)[j + 1] = aux;
+                cost.mov++;
+            }
+            j++;
+            cost.comp++;
+        }
+        i++;
+    }
+    return cost;
+}
 
 Cost insert_node_linkedList(LinkedList *list, UserData data, size_t pos)
 {
@@ -453,6 +526,9 @@ int menu()
 	printf("{03} - Remover uma amostra: \n");
 	printf("{04} - Imprimir lista linkada\n");
 	printf("{05} - Imprimir lista sequencial\n");
+	printf("{06} - Ordenar utilizando o algoritmo Selection_sort()\n");
+	printf("{07} - Ordenar utilizando o algoritmo Insertion_sort()\n");
+	printf("{08} - Ordenar utilizando o algoritmo Bubble_sort()\n");
 	printf("Digite uma opcao: ");
 	scanf("%i", &option);
 	flush_in();
@@ -494,7 +570,6 @@ void print_list(UserData *list)
 		i++;
 	}
 }
-
 
 int main()
 {
@@ -635,8 +710,41 @@ int main()
 				printf("print_list() levou %f segundos para ser executado \n", cpu_time_used);
 				break;
 
-			default:
+			
+            case 6:
+                printf("Ordenando lista: \n");
+                t = clock();
+                cost_list = selection_sort(&data);
+                t = clock() - t;
+                cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
+
+                printf("selection_sort() levou %f segundos para ser executado \n	C: %i M: %i\n", cpu_time_used, cost_list.comp, cost_list.mov);
+                break;
+            
+			case 7:
+				printf("Ordenando lista: \n");
+				t = clock();
+				cost_list = insertion_sort(&data);
+				t = clock() - t;
+				cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
+
+				printf("insertion_sort() levou %f segundos para ser executado \n	C: %i M: %i\n", cpu_time_used, cost_list.comp, cost_list.mov);
 				break;
+
+			case 8:
+				printf("Ordenando lista: \n");
+				t = clock();
+				cost_list = bubble_sort(&data);
+				t = clock() - t;
+				cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
+
+				printf("insertion_sort() levou %f segundos para ser executado \n	C: %i M: %i\n", cpu_time_used, cost_list.comp, cost_list.mov);
+				break;
+
+            default:
+				break;
+
+
 		}
 	}
 	return 0;
