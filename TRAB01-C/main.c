@@ -511,7 +511,7 @@ int main()
 	Cost cost_list = {0, 0};
 	Cost cost_linkedlist = {0, 0};
 
-	char *file = "../db/NomeRG10.txt";
+	char *file = "../../db/NomeRG100M.txt";
 
 	clock_t t;
 	t = clock();
