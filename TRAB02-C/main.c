@@ -92,30 +92,30 @@ Cost selection_sort(UserData **list)
     return cost;
 }
 
-Cost bubble_sort(UserData **list)
-{
-    int i = 1, j = 1, lenght = (*list)[0].rg;
-    Cost cost = {0, 0};
+// Cost bubble_sort(UserData **list)
+// {
+//     int i = 1, j = 1, lenght = (*list)[0].rg;
+//     Cost cost = {0, 0};
 
-    while(i <= lenght)
-    {
-        j = 1;
-        while(j <= lenght - i)
-        {
-            if((*list)[j].rg > (*list)[j + 1].rg)
-            {
-                UserData aux = (*list)[j];
-                (*list)[j] = (*list)[j + 1];
-                (*list)[j + 1] = aux;
-                cost.mov++;
-            }
-            j++;
-            cost.comp++;
-        }
-        i++;
-    }
-    return cost;
-}
+//     while(i <= lenght)
+//     {
+//         j = 1;
+//         while(j <= lenght - i)
+//         {
+//             if((*list)[j].rg > (*list)[j + 1].rg)
+//             {
+//                 UserData aux = (*list)[j];
+//                 (*list)[j] = (*list)[j + 1];
+//                 (*list)[j + 1] = aux;
+//                 cost.mov++;
+//             }
+//             j++;
+//             cost.comp++;
+//         }
+//         i++;
+//     }
+//     return cost;
+// }
 
 Cost insert_node_linkedList(LinkedList *list, UserData data, size_t pos)
 {
@@ -524,11 +524,11 @@ int menu()
 	printf("{01} - Buscar um NOME a partir de um RG: \n");
 	printf("{02} - Inserir uma amostra: \n");
 	printf("{03} - Remover uma amostra: \n");
-	printf("{04} - Imprimir lista linkada\n");
 	printf("{05} - Imprimir lista sequencial\n");
 	printf("{06} - Ordenar utilizando o algoritmo Selection_sort()\n");
 	printf("{07} - Ordenar utilizando o algoritmo Insertion_sort()\n");
 	printf("{08} - Ordenar utilizando o algoritmo Bubble_sort()\n");
+	printf("{09} - Ordenar utilizando o algoritmo Quick_sort()\n");
 	printf("Digite uma opcao: ");
 	scanf("%i", &option);
 	flush_in();
@@ -561,6 +561,62 @@ Search_component serach_rg_list(UserData **list, int rg)
 	return (Search_component){NULL, 0};
 }
 
+Cost bubble_sort(UserData **list)
+{
+    int i = 1, j = 1, lenght = (*list)[0].rg;
+    Cost cost = {0, 0};
+
+    while(i <= lenght)
+    {
+        j = 1;
+        while(j <= lenght - i)
+        {
+            if((*list)[j].rg > (*list)[j + 1].rg)
+            {
+                UserData aux = (*list)[j];
+                (*list)[j] = (*list)[j + 1];
+                (*list)[j + 1] = aux;
+                cost.mov+=2;
+            }
+            j++;
+            cost.comp++;
+        }
+        i++;
+    }
+    return cost;
+}
+
+Cost shellSort(UserData *data) 
+{
+	int n = data[0].rg;
+	// Rearrange elements at each n/2, n/4, n/8, ... intervals
+	for (int interval = n / 2; interval > 0; interval /= 2) {
+		for (int i = interval; i < n; i += 1) 
+		{
+			int temp = data[i].rg;
+			int j;
+			for (j = i; j >= interval && data[j - interval].rg > temp; j -= interval) {
+				data[j].rg = data[j - interval].rg;
+			}
+		data[j].rg = temp;
+		}
+	}
+
+	return (Cost){0, 0};
+}
+
+
+// Cost shell_sort(UserData *data)
+// {
+
+// }
+
+
+Cost merge_sort(UserData **data)
+{
+	
+}
+
 void print_list(UserData *list)
 {
 	int i = 1;
@@ -569,6 +625,66 @@ void print_list(UserData *list)
 		printf("Nome: %s, RG: %i \n", list[i].name, list[i].rg);
 		i++;
 	}
+}
+
+
+Cost quick_sort(UserData *data, int began, int end)
+{
+	int i, j, pivo, aux;
+	i = began;
+	j = end-1;
+    Cost cost = {0, 0};
+	pivo = data[(began + end) / 2].rg;
+	while(i <= j)
+	{
+		while(data[i].rg < pivo && i < end)
+			i++;
+		while(data[j].rg > pivo && j > began)
+			j--;
+		if(i <= j)
+		{
+			aux = data[i].rg;
+			data[i].rg = data[j].rg;
+			data[j].rg = aux;
+			i++;
+			j--;
+			cost.mov++;
+			cost.comp++;
+		}
+		cost.comp++;
+
+
+	}
+	if(j > began)
+		quick_sort(data, began, j+1);
+	if(i < end)
+		quick_sort(data, i, end);
+	return cost;
+}
+
+
+Search_component binary_search(UserData *data, int rg)
+{
+	int lenght = data[0].rg;
+	int began = 1, end = lenght;
+	Cost cost = {0, 0};
+	while(began <= end)
+	{
+		int mid = began + (end - began) / 2;
+		if(data[mid].rg == rg)
+		{
+			printf("%i, %s\n", data[mid].rg, data[mid].name);
+			printf("C: %i M: %i \n", cost.comp, cost.mov);
+			return (Search_component){data[mid], mid};
+		}
+		else if(data[mid].rg < rg)
+			began = mid + 1;
+		else
+			end = mid - 1;
+		cost.comp++;
+	}
+
+	return (Search_component){NULL, 0};
 }
 
 int main()
@@ -586,14 +702,11 @@ int main()
 	Cost cost_list = {0, 0};
 	Cost cost_linkedlist = {0, 0};
 
-	char *file = "../db/NomeRG10.txt";
-
+	char *file = "../../db/NomeRG100K.txt";
+	Search_component user;
 	clock_t t;
-	t = clock();
-	read_file_to_linkedList(&list, file);
-	t = clock() - t;
 	double cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
-	printf("read_file_to_linkedList() levou %f segundos para ser executado \n", cpu_time_used);
+
 
 	t = clock();
 	read_file_to_list(&data, file);
@@ -620,17 +733,18 @@ int main()
 				printf("Buscando um NOME a partir de um RG: \n");
 
 				t = clock();
-				Search_component user = search_rg_linkedList(&list, rg);
-				t = clock() - t;
-				cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
-
-				printf("search_rg_linkedList() levou %f segundos para ser executado;\n	Nome: %s, RG: %i, pos: %i \n", cpu_time_used, user.data.name, user.data.rg, user.pos);
-				t = clock();
 				Search_component user2 = serach_rg_list(&data, rg);
 				t = clock() - t;
 				cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
 
 				printf("serach_rg_list() levou %f segundos para ser executado;\n	Nome: %s, RG: %i; pos: %i\n", cpu_time_used, user2.data.name, user2.data.rg, user2.pos);
+
+				t = clock();
+				user = binary_search(data, rg);
+				t = clock() - t;
+				cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
+				printf("binary_search() levou %f segundos para ser executado \n	Nome: %s Posição: %i\n", cpu_time_used, user.data.name, user.pos);
+				
 				break;
 
 			case 2:
@@ -649,13 +763,6 @@ int main()
 				flush_in();
 
 				t = clock();
-				cost_linkedlist = insert_node_linkedList(&list, (UserData){name, rg}, c);
-				t = clock() - t;
-				cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
-
-				printf("insert_node_linkedList() levou %f segundos para ser executado \n	C: %i M: %i \n", cpu_time_used, cost_linkedlist.comp, cost_linkedlist.mov);
-
-				t = clock();
 
 				cost_list = insert_data_on_list(&data, (UserData){name, rg}, c);
 				t = clock() - t;
@@ -670,15 +777,7 @@ int main()
 				printf("Digite a posição na lista: ");
 				scanf("%i", &rg);
 				flush_in();
-				
-				t = clock();
-				cost_linkedlist = delete_node(&list, rg);
-				t = clock() - t;
-				cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
-
-				printf("delete_node() levou %f segundos para ser executado \n	C: %i M: %i\n", cpu_time_used, cost_linkedlist.comp, cost_linkedlist.mov);
-				printf("%i, %i\n", cost_linkedlist.mov, cost_linkedlist.comp);
-
+	
 				t = clock();
 				cost_list = remove_data_on_list(&data, rg);
 				t = clock() - t;
@@ -686,17 +785,6 @@ int main()
 
 				printf("remove_data_on_list() levou %f segundos para ser executado \n	C: %i M: %i\n", cpu_time_used, cost_list.comp, cost_list.mov);
 
-				break;
-
-			case 4:
-				printf("Imprimindo lista: \n");
-
-				t = clock();
-				print_Linkedlist(&list);
-				t = clock() - t;
-				cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
-
-				printf("print_Linkedlist() levou %f segundos para ser executado \n", cpu_time_used);
 				break;
 
 			case 5:
@@ -741,9 +829,20 @@ int main()
 				printf("insertion_sort() levou %f segundos para ser executado \n	C: %i M: %i\n", cpu_time_used, cost_list.comp, cost_list.mov);
 				break;
 
-            default:
+			case 9:
+				printf("Ordenando lista: \n");
+				t = clock();
+				cost_list = quick_sort(data, 1, data[0].rg + 1);
+				t = clock() - t;
+				cpu_time_used = ((double)t)/CLOCKS_PER_SEC;
+				printf("insertion_sort() levou %f segundos para ser executado \n	C: %i M: %i\n", cpu_time_used, cost_list.comp, cost_list.mov);
 				break;
 
+
+			
+
+            default:
+				break;
 
 		}
 	}
