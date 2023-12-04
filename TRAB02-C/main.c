@@ -369,7 +369,7 @@ void read_file_to_linkedList(LinkedList *list, char *file)
 	}
 	char *line = NULL;
 	size_t len = 0;
-	ssize_t read;
+	size_t read;
 	Cost cost = {0, 0};
 	while((read = getline(&line, &len, fp)) != EOF)
 	{
@@ -415,7 +415,7 @@ void read_file_to_list(UserData **list, char *file)
 	}
 	char *line = NULL;
 	size_t len = 0;
-	ssize_t read;
+	size_t read;
 	Cost cost = {0, 0};
 
 	while((read = getline(&line, &len, fp)) != EOF)
