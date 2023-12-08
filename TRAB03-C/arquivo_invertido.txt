@@ -1,0 +1,924 @@
+palavra: la  | freq: 1 | posicoes: 0 / 
+
+palavra: amiguinhos | freq: 1 | posicoes: 3 / 
+
+palavra: eu  | freq: 4 | posicoes: 15 / 2799 / 2862 / 4833 / 
+
+palavra: sou  | freq: 3 | posicoes: 18 / 2802 / 2865 / 
+
+palavra: o  | freq: 29 | posicoes: 22 / 167 / 440 / 929 / 1327 / 1348 / 1380 / 1534 / 1661 / 1769 / 2056 / 2324 / 2839 / 3532 / 3582 / 3729 / 4005 / 4067 / 4404 / 4521 / 4549 / 4702 / 4792 / 4847 / 5072 / 5263 / 5494 / 5515 / 5545 / 
+
+palavra: beto  | freq: 1 | posicoes: 24 / 
+
+palavra: carrero | freq: 1 | posicoes: 29 / 
+
+palavra: seja  | freq: 1 | posicoes: 38 / 
+
+palavra: bem-vindo  | freq: 1 | posicoes: 43 / 
+
+palavra: ao  | freq: 3 | posicoes: 53 / 218 / 4960 / 
+
+palavra: meu  | freq: 3 | posicoes: 56 / 2688 / 2781 / 
+
+palavra: mundo  | freq: 2 | posicoes: 60 / 1350 / 
+
+palavra: encantado | freq: 1 | posicoes: 66 / 
+
+palavra: vou  | freq: 1 | posicoes: 77 / 
+
+palavra: contar-lhe  | freq: 1 | posicoes: 81 / 
+
+palavra: uma  | freq: 8 | posicoes: 92 / 198 / 621 / 699 / 2028 / 4417 / 5110 / 5232 / 
+
+palavra: linda  | freq: 1 | posicoes: 96 / 
+
+palavra: historia | freq: 1 | posicoes: 102 / 
+
+palavra: vamos  | freq: 4 | posicoes: 112 / 3735 / 3859 / 4302 / 
+
+palavra: viajar  | freq: 1 | posicoes: 118 / 
+
+palavra: no  | freq: 7 | posicoes: 125 / 768 / 2172 / 2224 / 4210 / 4250 / 5204 / 
+
+palavra: tempo  | freq: 3 | posicoes: 128 / 1098 / 4441 / 
+
+palavra: atraves  | freq: 1 | posicoes: 134 / 
+
+palavra: da  | freq: 8 | posicoes: 142 / 1466 / 1680 / 2979 / 3291 / 3337 / 3878 / 5212 / 
+
+palavra: imaginacao | freq: 1 | posicoes: 145 / 
+
+palavra: descobrir  | freq: 2 | posicoes: 157 / 349 / 
+
+palavra: vale  | freq: 3 | posicoes: 169 / 1371 / 3380 / 
+
+palavra: dos  | freq: 5 | posicoes: 174 / 868 / 1388 / 2410 / 3449 / 
+
+palavra: dinossauros  | freq: 4 | posicoes: 178 / 470 / 3680 / 5171 / 
+
+palavra: e  | freq: 3864 | posicoes: 190 / 249 / 321 / 553 / 644 / 665 / 697 / 885 / 1005 / 1096 / 1166 / 1185 / 1237 / 1433 / 1589 / 1761 / 1831 / 1880 / 2050 / 2332 / 2589 / 2790 / 2815 / 2837 / 2895 / 2915 / 3186 / 3372 / 3465 / 3498 / 
+
+palavra: � | freq: 0 | posicoes: 
+
+palavra: grande  | freq: 4 | posicoes: 202 / 771 / 1364 / 3360 / 
+
+palavra: aventura  | freq: 2 | posicoes: 209 / 714 / 
+
+palavra: lado  | freq: 3 | posicoes: 221 / 4963 / 5502 / 
+
+palavra: de  | freq: 23 | posicoes: 226 / 418 / 807 / 922 / 1062 / 1284 / 1336 / 1523 / 1731 / 1749 / 1852 / 2374 / 2397 / 2439 / 3040 / 3991 / 4097 / 4414 / 4530 / 4597 / 4896 / 5120 / 5681 / 
+
+palavra: nossos  | freq: 1 | posicoes: 229 / 
+
+palavra: herois  | freq: 1 | posicoes: 236 / 
+
+palavra: bront  | freq: 16 | posicoes: 243 / 667 / 987 / 1168 / 1711 / 2563 / 3180 / 3239 / 3492 / 3822 / 3979 / 4144 / 4767 / 4933 / 5280 / 5632 / 
+
+palavra: trion | freq: 5 | posicoes: 251 / 1873 / 2487 / 2869 / 5640 / 
+
+palavra: aprender  | freq: 1 | posicoes: 258 / 
+
+palavra: que  | freq: 29 | posicoes: 267 / 366 / 522 / 687 / 907 / 1577 / 1791 / 1892 / 2006 / 2052 / 2250 / 2298 / 2509 / 2634 / 3012 / 3075 / 3126 / 3176 / 3328 / 3591 / 3633 / 3731 / 4007 / 4608 / 4817 / 4905 / 5027 / 5535 / 5613 / 
+
+palavra: a  | freq: 21 | posicoes: 271 / 492 / 566 / 601 / 636 / 646 / 858 / 1513 / 1639 / 1721 / 3266 / 3437 / 3560 / 3621 / 3646 / 4087 / 4108 / 4447 / 4486 / 5593 / 5605 / 
+
+palavra: verdadeira  | freq: 2 | posicoes: 273 / 703 / 
+
+palavra: amizade  | freq: 1 | posicoes: 284 / 
+
+palavra: supera  | freq: 1 | posicoes: 292 / 
+
+palavra: todas  | freq: 4 | posicoes: 299 / 329 / 1694 / 4167 / 
+
+palavra: as  | freq: 7 | posicoes: 305 / 335 / 1307 / 1700 / 4034 / 4173 / 4359 / 
+
+palavra: dificuldades  | freq: 1 | posicoes: 308 / 
+
+palavra: vence  | freq: 1 | posicoes: 323 / 
+
+palavra: barreiras | freq: 1 | posicoes: 338 / 
+
+palavra: tambem  | freq: 2 | posicoes: 359 / 4027 / 
+
+palavra: unidos  | freq: 1 | posicoes: 370 / 
+
+palavra: realizamos  | freq: 1 | posicoes: 377 / 
+
+palavra: grandes  | freq: 2 | posicoes: 388 / 5693 / 
+
+palavra: facanhas | freq: 2 | posicoes: 396 / 5701 / 
+
+palavra: ha  | freq: 1 | posicoes: 407 / 
+
+palavra: milhoes  | freq: 1 | posicoes: 410 / 
+
+palavra: anos  | freq: 1 | posicoes: 421 / 
+
+palavra: atras | freq: 1 | posicoes: 426 / 
+
+palavra: quando  | freq: 4 | posicoes: 433 / 2066 / 2202 / 3159 / 
+
+palavra: homem  | freq: 1 | posicoes: 442 / 
+
+palavra: ainda  | freq: 2 | posicoes: 448 / 3385 / 
+
+palavra: nao  | freq: 15 | posicoes: 454 / 1052 / 1239 / 1271 / 1783 / 1979 / 2209 / 2357 / 2758 / 2937 / 2990 / 3115 / 3773 / 4229 / 4430 / 
+
+palavra: existia | freq: 1 | posicoes: 458 / 
+
+palavra: os  | freq: 13 | posicoes: 467 / 729 / 1260 / 1441 / 1600 / 3004 / 3677 / 3762 / 3806 / 3916 / 4633 / 5168 / 5362 / 
+
+palavra: dominavam  | freq: 1 | posicoes: 482 / 
+
+palavra: terra | freq: 1 | posicoes: 494 / 
+
+palavra: criaturas  | freq: 1 | posicoes: 501 / 
+
+palavra: magnificas  | freq: 1 | posicoes: 511 / 
+
+palavra: despertam  | freq: 1 | posicoes: 526 / 
+
+palavra: nossa  | freq: 3 | posicoes: 536 / 568 / 746 / 
+
+palavra: imaginacao  | freq: 1 | posicoes: 542 / 
+
+palavra: conquistam  | freq: 1 | posicoes: 555 / 
+
+palavra: admiracao | freq: 1 | posicoes: 574 / 
+
+palavra: numa  | freq: 1 | posicoes: 585 / 
+
+palavra: epoca  | freq: 1 | posicoes: 590 / 
+
+palavra: onde  | freq: 2 | posicoes: 596 / 793 / 
+
+palavra: sobrevivencia  | freq: 1 | posicoes: 603 / 
+
+palavra: era  | freq: 9 | posicoes: 617 / 1376 / 1553 / 1635 / 2254 / 2700 / 2994 / 3282 / 4083 / 
+
+palavra: luta  | freq: 1 | posicoes: 625 / 
+
+palavra: entre  | freq: 3 | posicoes: 630 / 723 / 946 / 
+
+palavra: forca  | freq: 1 | posicoes: 638 / 
+
+palavra: agilidade | freq: 1 | posicoes: 648 / 
+
+palavra: trion  | freq: 11 | posicoes: 659 / 843 / 1160 / 1763 / 1943 / 2244 / 3188 / 3500 / 4152 / 4941 / 5288 / 
+
+palavra: nos  | freq: 3 | posicoes: 673 / 4600 / 4821 / 
+
+palavra: mostrarao  | freq: 1 | posicoes: 677 / 
+
+palavra: dinossauros | freq: 4 | posicoes: 732 / 1404 / 1610 / 5372 / 
+
+palavra: historia  | freq: 1 | posicoes: 752 / 
+
+palavra: comeca  | freq: 1 | posicoes: 761 / 
+
+palavra: vale | freq: 4 | posicoes: 778 / 3540 / 4138 / 4219 / 
+
+palavra: um  | freq: 13 | posicoes: 784 / 887 / 1007 / 1557 / 2714 / 2737 / 3016 / 3043 / 3357 / 3709 / 3897 / 4594 / 4717 / 
+
+palavra: lugar  | freq: 3 | posicoes: 787 / 3900 / 5529 / 
+
+palavra: familias  | freq: 3 | posicoes: 798 / 4176 / 4362 / 
+
+palavra: varias  | freq: 1 | posicoes: 810 / 
+
+palavra: especies  | freq: 2 | posicoes: 817 / 1740 / 
+
+palavra: convivem  | freq: 1 | posicoes: 826 / 
+
+palavra: em  | freq: 6 | posicoes: 835 / 2025 / 2654 / 3410 / 3712 / 5088 / 
+
+palavra: paz | freq: 1 | posicoes: 838 / 
+
+palavra: pertence  | freq: 1 | posicoes: 849 / 
+
+palavra: familia  | freq: 2 | posicoes: 860 / 1218 / 
+
+palavra: triceratops | freq: 1 | posicoes: 872 / 
+
+palavra: jovem  | freq: 3 | posicoes: 890 / 2717 / 4794 / 
+
+palavra: dinossauro  | freq: 1 | posicoes: 896 / 
+
+palavra: se  | freq: 9 | posicoes: 911 / 1226 / 1243 / 3026 / 3571 / 3692 / 4233 / 4371 / 4872 / 
+
+palavra: orgulha  | freq: 1 | posicoes: 914 / 
+
+palavra: ser  | freq: 2 | posicoes: 925 / 3439 / 
+
+palavra: melhor  | freq: 2 | posicoes: 931 / 1882 / 
+
+palavra: lutador  | freq: 1 | posicoes: 938 / 
+
+palavra: seus  | freq: 4 | posicoes: 952 / 1291 / 1423 / 5350 / 
+
+palavra: irmaos | freq: 1 | posicoes: 957 / 
+
+palavra: ninguem  | freq: 2 | posicoes: 965 / 5039 / 
+
+palavra: pode  | freq: 1 | posicoes: 973 / 
+
+palavra: com  | freq: 8 | posicoes: 978 / 1256 / 1303 / 2082 / 2320 / 2684 / 4673 / 5628 / 
+
+palavra: ele | freq: 1 | posicoes: 982 / 
+
+palavra: por  | freq: 1 | posicoes: 993 / 
+
+palavra: sua  | freq: 6 | posicoes: 997 / 1084 / 1623 / 2599 / 3656 / 3715 / 
+
+palavra: vez  | freq: 1 | posicoes: 1001 / 
+
+palavra: brontossauro | freq: 1 | posicoes: 1010 / 
+
+palavra: conhecido  | freq: 1 | posicoes: 1024 / 
+
+palavra: como  | freq: 6 | posicoes: 1034 / 1208 / 2266 / 3277 / 4055 / 4781 / 
+
+palavra: pescocudo | freq: 5 | posicoes: 1040 / 2099 / 2111 / 2377 / 4800 / 
+
+palavra: gosta  | freq: 1 | posicoes: 1056 / 
+
+palavra: luta | freq: 3 | posicoes: 1065 / 2032 / 5236 / 
+
+palavra: prefere  | freq: 1 | posicoes: 1071 / 
+
+palavra: usar  | freq: 1 | posicoes: 1079 / 
+
+palavra: energia  | freq: 1 | posicoes: 1088 / 
+
+palavra: explorando  | freq: 1 | posicoes: 1104 / 
+
+palavra: novos  | freq: 1 | posicoes: 1115 / 
+
+palavra: lugares | freq: 1 | posicoes: 1121 / 
+
+palavra: embora  | freq: 1 | posicoes: 1131 / 
+
+palavra: sejam  | freq: 1 | posicoes: 1138 / 
+
+palavra: tao  | freq: 1 | posicoes: 1144 / 
+
+palavra: diferentes | freq: 1 | posicoes: 1148 / 
+
+palavra: sao  | freq: 2 | posicoes: 1174 / 2010 / 
+
+palavra: amigos  | freq: 1 | posicoes: 1178 / 
+
+palavra: estao  | freq: 2 | posicoes: 1187 / 4262 / 
+
+palavra: sempre  | freq: 1 | posicoes: 1193 / 
+
+palavra: juntos | freq: 1 | posicoes: 1200 / 
+
+palavra: cada  | freq: 2 | posicoes: 1213 / 3704 / 
+
+palavra: ajudava  | freq: 1 | posicoes: 1229 / 
+
+palavra: misturava  | freq: 1 | posicoes: 1246 / 
+
+palavra: demais | freq: 1 | posicoes: 1263 / 
+
+palavra: gostavam  | freq: 1 | posicoes: 1275 / 
+
+palavra: ver  | freq: 4 | posicoes: 1287 / 2144 / 2906 / 3528 / 
+
+palavra: filhos  | freq: 1 | posicoes: 1296 / 
+
+palavra: outras  | freq: 1 | posicoes: 1310 / 
+
+palavra: especies | freq: 1 | posicoes: 1317 / 
+
+palavra: desejo  | freq: 1 | posicoes: 1329 / 
+
+palavra: conhecer  | freq: 1 | posicoes: 1339 / 
+
+palavra: alem  | freq: 6 | posicoes: 1356 / 1461 / 1675 / 3286 / 3332 / 3873 / 
+
+palavra: do  | freq: 5 | posicoes: 1361 / 1889 / 4135 / 4275 / 4968 / 
+
+palavra: sonho  | freq: 1 | posicoes: 1382 / 
+
+palavra: dois  | freq: 1 | posicoes: 1392 / 
+
+palavra: jovens  | freq: 1 | posicoes: 1397 / 
+
+palavra: porem  | freq: 2 | posicoes: 1417 / 4077 / 
+
+palavra: pais  | freq: 1 | posicoes: 1428 / 
+
+palavra: todos  | freq: 4 | posicoes: 1435 / 2998 / 3069 / 4345 / 
+
+palavra: outros  | freq: 3 | posicoes: 1444 / 1603 / 4636 / 
+
+palavra: temiam  | freq: 1 | posicoes: 1451 / 
+
+palavra: ir  | freq: 1 | posicoes: 1458 / 
+
+palavra: montanha  | freq: 5 | posicoes: 1469 / 3294 / 3340 / 3562 / 3881 / 
+
+palavra: vermelha | freq: 2 | posicoes: 1478 / 3303 / 
+
+palavra: pois  | freq: 3 | posicoes: 1488 / 1995 / 2125 / 
+
+palavra: logo  | freq: 4 | posicoes: 1493 / 2334 / 3245 / 5454 / 
+
+palavra: adiante  | freq: 1 | posicoes: 1498 / 
+
+palavra: ficava  | freq: 1 | posicoes: 1506 / 
+
+palavra: caverna  | freq: 4 | posicoes: 1515 / 1627 / 4089 / 5215 / 
+
+palavra: tirano | freq: 7 | posicoes: 1526 / 4100 / 4533 / 4849 / 5031 / 5303 / 5432 / 
+
+palavra: terrivel | freq: 1 | posicoes: 1536 / 
+
+palavra: tirano  | freq: 3 | posicoes: 1546 / 4621 / 5242 / 
+
+palavra: tiranossauro  | freq: 1 | posicoes: 1560 / 
+
+palavra: rex  | freq: 1 | posicoes: 1573 / 
+
+palavra: atacava  | freq: 1 | posicoes: 1581 / 
+
+palavra: devorava  | freq: 1 | posicoes: 1591 / 
+
+palavra: unica  | freq: 2 | posicoes: 1641 / 4110 / 
+
+palavra: passagem  | freq: 2 | posicoes: 1647 / 4116 / 
+
+palavra: para  | freq: 13 | posicoes: 1656 / 2192 / 2232 / 2552 / 3058 / 3487 / 3906 / 4125 / 4481 / 4628 / 4762 / 4913 / 5489 / 
+
+palavra: outro  | freq: 4 | posicoes: 1663 / 3374 / 3534 / 5496 / 
+
+palavra: lado | freq: 1 | posicoes: 1669 / 
+
+palavra: montanha | freq: 1 | posicoes: 1683 / 
+
+palavra: manhas | freq: 1 | posicoes: 1703 / 
+
+palavra: sai  | freq: 1 | posicoes: 1717 / 
+
+palavra: procura  | freq: 1 | posicoes: 1723 / 
+
+palavra: novas  | freq: 2 | posicoes: 1734 / 3481 / 
+
+palavra: plantas | freq: 2 | posicoes: 1752 / 1822 / 
+
+palavra: acompanha | freq: 1 | posicoes: 1771 / 
+
+palavra: sei  | freq: 1 | posicoes: 1787 / 
+
+palavra: graca  | freq: 1 | posicoes: 1795 / 
+
+palavra: tem  | freq: 3 | posicoes: 1801 / 1983 / 4604 / 
+
+palavra: ficar  | freq: 2 | posicoes: 1805 / 1896 / 
+
+palavra: procurando  | freq: 1 | posicoes: 1811 / 
+
+palavra: tudo  | freq: 1 | posicoes: 1833 / 
+
+palavra: igual  | freq: 1 | posicoes: 1838 / 
+
+palavra: na  | freq: 5 | posicoes: 1844 / 3087 / 4497 / 4576 / 5192 / 
+
+palavra: hora  | freq: 3 | posicoes: 1847 / 4391 / 5067 / 
+
+palavra: comer | freq: 2 | posicoes: 1855 / 2237 / 
+
+palavra: reclamou  | freq: 1 | posicoes: 1864 / 
+
+palavra: batendo  | freq: 1 | posicoes: 1902 / 
+
+palavra: chifres | freq: 2 | posicoes: 1910 / 2419 / 
+
+palavra: falou  | freq: 6 | posicoes: 1921 / 2481 / 2955 / 3322 / 3985 / 4688 / 
+
+palavra: bront | freq: 4 | posicoes: 1927 / 2460 / 2792 / 3944 / 
+
+palavra: ofendido  | freq: 1 | posicoes: 1934 / 
+
+palavra: disse | freq: 4 | posicoes: 1949 / 2339 / 3851 / 4586 / 
+
+palavra: voce  | freq: 4 | posicoes: 1956 / 2197 / 2513 / 2897 / 
+
+palavra: fala  | freq: 1 | posicoes: 1961 / 
+
+palavra: assim  | freq: 1 | posicoes: 1966 / 
+
+palavra: porque  | freq: 1 | posicoes: 1972 / 
+
+palavra: nenhum | freq: 1 | posicoes: 1987 / 
+
+palavra: saiba  | freq: 1 | posicoes: 2000 / 
+
+palavra: muito  | freq: 1 | posicoes: 2014 / 
+
+palavra: bons  | freq: 1 | posicoes: 2020 / 
+
+palavra: afinal  | freq: 1 | posicoes: 2038 / 
+
+palavra: quem  | freq: 4 | posicoes: 2045 / 2148 / 2854 / 2910 / 
+
+palavra: defende  | freq: 1 | posicoes: 2058 / 
+
+palavra: implicam  | freq: 1 | posicoes: 2073 / 
+
+palavra: voce | freq: 1 | posicoes: 2086 / 
+
+palavra: hein | freq: 1 | posicoes: 2092 / 
+
+palavra: e | freq: 2 | posicoes: 2122 / 2859 / 
+
+palavra: bem | freq: 2 | posicoes: 2130 / 2472 / 
+
+palavra: quero  | freq: 1 | posicoes: 2135 / 
+
+palavra: so  | freq: 2 | posicoes: 2141 / 2631 / 
+
+palavra: vai  | freq: 3 | posicoes: 2153 / 2902 / 5047 / 
+
+palavra: apanhar  | freq: 1 | posicoes: 2157 / 
+
+palavra: folhas  | freq: 5 | posicoes: 2165 / 2291 / 2545 / 3474 / 4037 / 
+
+palavra: alto  | freq: 1 | posicoes: 2175 / 
+
+palavra: das  | freq: 1 | posicoes: 2180 / 
+
+palavra: arvores  | freq: 1 | posicoes: 2184 / 
+
+palavra: tiver  | freq: 1 | posicoes: 2213 / 
+
+palavra: nada  | freq: 1 | posicoes: 2219 / 
+
+palavra: chao  | freq: 1 | posicoes: 2227 / 
+
+palavra: comilao  | freq: 1 | posicoes: 2258 / 
+
+palavra: ninguem | freq: 1 | posicoes: 2271 / 
+
+palavra: pensou  | freq: 1 | posicoes: 2280 / 
+
+palavra: nas  | freq: 1 | posicoes: 2287 / 
+
+palavra: perderia  | freq: 1 | posicoes: 2302 / 
+
+palavra: brigando  | freq: 1 | posicoes: 2311 / 
+
+palavra: amigo  | freq: 2 | posicoes: 2326 / 3443 / 
+
+palavra: desculpe | freq: 2 | posicoes: 2347 / 2748 / 
+
+palavra: lhe  | freq: 1 | posicoes: 2361 / 
+
+palavra: chamarei  | freq: 1 | posicoes: 2365 / 
+
+palavra: mas  | freq: 2 | posicoes: 2388 / 4225 / 
+
+palavra: pare  | freq: 2 | posicoes: 2392 / 2434 / 
+
+palavra: falar  | freq: 1 | posicoes: 2400 / 
+
+palavra: mal  | freq: 1 | posicoes: 2406 / 
+
+palavra: meus  | freq: 1 | posicoes: 2414 / 
+
+palavra: entao  | freq: 1 | posicoes: 2428 / 
+
+palavra: reclamar | freq: 1 | posicoes: 2442 / 
+
+palavra: disse  | freq: 2 | posicoes: 2454 / 4786 / 
+
+palavra: esta  | freq: 2 | posicoes: 2467 / 2518 / 
+
+palavra: aproveitando  | freq: 1 | posicoes: 2496 / 
+
+palavra: perto | freq: 1 | posicoes: 2523 / 
+
+palavra: apanhe  | freq: 1 | posicoes: 2530 / 
+
+palavra: algumas  | freq: 2 | posicoes: 2537 / 2615 / 
+
+palavra: mim | freq: 1 | posicoes: 2557 / 
+
+palavra: esticou  | freq: 1 | posicoes: 2569 / 
+
+palavra: seu  | freq: 3 | posicoes: 2577 / 2638 / 3837 / 
+
+palavra: pescoco  | freq: 2 | posicoes: 2581 / 3841 / 
+
+palavra: abrindo  | freq: 1 | posicoes: 2591 / 
+
+palavra: boca  | freq: 1 | posicoes: 2603 / 
+
+palavra: colheu  | freq: 1 | posicoes: 2608 / 
+
+palavra: folhas | freq: 2 | posicoes: 2623 / 3151 / 
+
+palavra: dente  | freq: 1 | posicoes: 2642 / 
+
+palavra: bateu  | freq: 1 | posicoes: 2648 / 
+
+palavra: algo | freq: 1 | posicoes: 2657 / 
+
+palavra: ai | freq: 3 | posicoes: 2664 / 2668 / 2672 / 
+
+palavra: cuidado  | freq: 1 | posicoes: 2676 / 
+
+palavra: bico | freq: 1 | posicoes: 2692 / 
+
+palavra: ptolomeu | freq: 1 | posicoes: 2704 / 
+
+palavra: pterodactilo | freq: 1 | posicoes: 2723 / 
+
+palavra: voador | freq: 1 | posicoes: 2740 / 
+
+palavra: queria  | freq: 1 | posicoes: 2762 / 
+
+palavra: machuca-lo | freq: 1 | posicoes: 2769 / 
+
+palavra: nome  | freq: 1 | posicoes: 2785 / 
+
+palavra: ptolomeu  | freq: 8 | posicoes: 2806 / 2961 / 3210 / 3268 / 3313 / 3421 / 3994 / 5313 / 
+
+palavra: estava  | freq: 2 | posicoes: 2817 / 3595 / 
+
+palavra: descansando | freq: 1 | posicoes: 2824 / 
+
+palavra: chifrudinho | freq: 2 | posicoes: 2841 / 2917 / 
+
+palavra: desca  | freq: 1 | posicoes: 2876 / 
+
+palavra: dessa  | freq: 1 | posicoes: 2882 / 
+
+palavra: arvore  | freq: 1 | posicoes: 2888 / 
+
+palavra: calma | freq: 1 | posicoes: 2930 / 
+
+palavra: quis  | freq: 1 | posicoes: 2941 / 
+
+palavra: ofender | freq: 1 | posicoes: 2946 / 
+
+palavra: descendo  | freq: 1 | posicoes: 2970 / 
+
+palavra: arvore | freq: 1 | posicoes: 2982 / 
+
+palavra: dias  | freq: 1 | posicoes: 3007 / 
+
+palavra: voador  | freq: 1 | posicoes: 3019 / 
+
+palavra: aproximava  | freq: 1 | posicoes: 3029 / 
+
+palavra: dinossauro | freq: 1 | posicoes: 3046 / 
+
+palavra: eles | freq: 1 | posicoes: 3063 / 
+
+palavra: andavam  | freq: 1 | posicoes: 3079 / 
+
+palavra: terra  | freq: 1 | posicoes: 3090 / 
+
+palavra: queriam  | freq: 2 | posicoes: 3096 / 3520 / 
+
+palavra: devora-los  | freq: 1 | posicoes: 3104 / 
+
+palavra: sabiam  | freq: 1 | posicoes: 3119 / 
+
+palavra: alguns  | freq: 1 | posicoes: 3130 / 
+
+palavra: comiam  | freq: 1 | posicoes: 3137 / 
+
+palavra: apenas  | freq: 1 | posicoes: 3144 / 
+
+palavra: descobriu  | freq: 1 | posicoes: 3166 / 
+
+palavra: eram  | freq: 2 | posicoes: 3194 / 5654 / 
+
+palavra: herbivoros  | freq: 1 | posicoes: 3199 / 
+
+palavra: ficou  | freq: 1 | posicoes: 3219 / 
+
+palavra: tranquilo | freq: 1 | posicoes: 3225 / 
+
+palavra: foi  | freq: 2 | posicoes: 3250 / 4909 / 
+
+palavra: perguntando  | freq: 1 | posicoes: 3254 / 
+
+palavra: existia  | freq: 1 | posicoes: 3349 / 
+
+palavra: lago  | freq: 1 | posicoes: 3367 / 
+
+palavra: maior | freq: 1 | posicoes: 3391 / 
+
+palavra: daquele  | freq: 1 | posicoes: 3398 / 
+
+palavra: dia  | freq: 1 | posicoes: 3406 / 
+
+palavra: diante | freq: 1 | posicoes: 3413 / 
+
+palavra: passou  | freq: 1 | posicoes: 3430 / 
+
+palavra: dois | freq: 1 | posicoes: 3453 / 
+
+palavra: voava  | freq: 1 | posicoes: 3459 / 
+
+palavra: trazia  | freq: 1 | posicoes: 3467 / 
+
+palavra: crescia | freq: 1 | posicoes: 3506 / 
+
+palavra: eles  | freq: 1 | posicoes: 3515 / 
+
+palavra: certa  | freq: 1 | posicoes: 3547 / 
+
+palavra: manha | freq: 1 | posicoes: 3553 / 
+
+palavra: agitou | freq: 1 | posicoes: 3574 / 
+
+palavra: vulcao  | freq: 2 | posicoes: 3584 / 5074 / 
+
+palavra: adormecido  | freq: 1 | posicoes: 3602 / 
+
+palavra: comecou  | freq: 1 | posicoes: 3613 / 
+
+palavra: dar  | freq: 1 | posicoes: 3623 / 
+
+palavra: sinal  | freq: 1 | posicoes: 3627 / 
+
+palavra: voltaria  | freq: 1 | posicoes: 3637 / 
+
+palavra: expedir  | freq: 1 | posicoes: 3648 / 
+
+palavra: lava | freq: 1 | posicoes: 3660 / 
+
+palavra: assustados  | freq: 1 | posicoes: 3666 / 
+
+palavra: reuniram  | freq: 2 | posicoes: 3695 / 4158 / 
+
+palavra: caverna | freq: 3 | posicoes: 3719 / 4488 / 5195 / 
+
+palavra: fazer | freq: 1 | posicoes: 3741 / 
+
+palavra: perguntavam  | freq: 1 | posicoes: 3750 / 
+
+palavra: jovens | freq: 1 | posicoes: 3765 / 
+
+palavra: podemos  | freq: 1 | posicoes: 3777 / 
+
+palavra: fazer  | freq: 1 | posicoes: 3785 / 
+
+palavra: nada | freq: 1 | posicoes: 3791 / 
+
+palavra: diziam  | freq: 1 | posicoes: 3799 / 
+
+palavra: mais  | freq: 4 | posicoes: 3809 / 3919 / 5015 / 5659 / 
+
+palavra: velhos | freq: 1 | posicoes: 3814 / 
+
+palavra: levantou  | freq: 1 | posicoes: 3828 / 
+
+palavra: embora | freq: 1 | posicoes: 3865 / 
+
+palavra: existe  | freq: 1 | posicoes: 3890 / 
+
+palavra: nos | freq: 1 | posicoes: 3911 / 
+
+palavra: velhos  | freq: 1 | posicoes: 3924 / 
+
+palavra: repreenderam  | freq: 1 | posicoes: 3931 / 
+
+palavra: ele  | freq: 2 | posicoes: 3951 / 4011 / 
+
+palavra: deveria  | freq: 1 | posicoes: 3955 / 
+
+palavra: estar  | freq: 1 | posicoes: 3963 / 
+
+palavra: sonhando | freq: 1 | posicoes: 3969 / 
+
+palavra: viu | freq: 1 | posicoes: 4015 / 
+
+palavra: trouxe  | freq: 1 | posicoes: 4020 / 
+
+palavra: diferentes  | freq: 1 | posicoes: 4044 / 
+
+palavra: prova | freq: 1 | posicoes: 4060 / 
+
+palavra: desafio  | freq: 1 | posicoes: 4069 / 
+
+palavra: sair  | freq: 1 | posicoes: 4130 / 
+
+palavra: disseram | freq: 1 | posicoes: 4187 / 
+
+palavra: voces  | freq: 1 | posicoes: 4198 / 
+
+palavra: vivem  | freq: 1 | posicoes: 4204 / 
+
+palavra: mesmo  | freq: 2 | posicoes: 4213 / 4278 / 
+
+palavra: ajudam | freq: 1 | posicoes: 4236 / 
+
+palavra: agora  | freq: 1 | posicoes: 4244 / 
+
+palavra: entanto | freq: 1 | posicoes: 4253 / 
+
+palavra: diante  | freq: 1 | posicoes: 4268 / 
+
+palavra: perigo | freq: 1 | posicoes: 4284 / 
+
+palavra: escolham | freq: 1 | posicoes: 4292 / 
+
+palavra: unir  | freq: 1 | posicoes: 4308 / 
+
+palavra: nossas  | freq: 1 | posicoes: 4313 / 
+
+palavra: forcas  | freq: 1 | posicoes: 4320 / 
+
+palavra: ou  | freq: 1 | posicoes: 4335 / 
+
+palavra: iremos  | freq: 1 | posicoes: 4338 / 
+
+palavra: morrer | freq: 2 | posicoes: 4351 / 5051 / 
+
+palavra: olharam | freq: 1 | posicoes: 4374 / 
+
+palavra: naquela  | freq: 2 | posicoes: 4383 / 5059 / 
+
+palavra: ouviram  | freq: 1 | posicoes: 4396 / 
+
+palavra: barulho  | freq: 1 | posicoes: 4406 / 
+
+palavra: erupcao | freq: 2 | posicoes: 4421 / 5091 / 
+
+palavra: tinham  | freq: 1 | posicoes: 4434 / 
+
+palavra: perder | freq: 1 | posicoes: 4449 / 
+
+palavra: reuniram-se  | freq: 1 | posicoes: 4457 / 
+
+palavra: marcharam  | freq: 1 | posicoes: 4471 / 
+
+palavra: entrada  | freq: 1 | posicoes: 4500 / 
+
+palavra: podiam  | freq: 1 | posicoes: 4508 / 
+
+palavra: ouvir  | freq: 1 | posicoes: 4515 / 
+
+palavra: rugido  | freq: 1 | posicoes: 4523 / 
+
+palavra: tegaro | freq: 1 | posicoes: 4541 / 
+
+palavra: estegossauro  | freq: 1 | posicoes: 4551 / 
+
+palavra: adiantou-se  | freq: 1 | posicoes: 4564 / 
+
+palavra: fila  | freq: 1 | posicoes: 4579 / 
+
+palavra: distrair  | freq: 1 | posicoes: 4612 / 
+
+palavra: passarem | freq: 1 | posicoes: 4643 / 
+
+palavra: esse  | freq: 1 | posicoes: 4653 / 
+
+palavra: alguem  | freq: 1 | posicoes: 4658 / 
+
+palavra: morrera  | freq: 1 | posicoes: 4665 / 
+
+palavra: certeza | freq: 1 | posicoes: 4677 / 
+
+palavra: guanon | freq: 1 | posicoes: 4694 / 
+
+palavra: iguanodonte | freq: 1 | posicoes: 4704 / 
+
+palavra: velho  | freq: 2 | posicoes: 4720 / 4971 / 
+
+palavra: pinacossauro  | freq: 2 | posicoes: 4726 / 4977 / 
+
+palavra: adiantou-se | freq: 1 | posicoes: 4739 / 
+
+palavra: olhando  | freq: 1 | posicoes: 4754 / 
+
+palavra: falou | freq: 1 | posicoes: 4773 / 
+
+palavra: temos  | freq: 1 | posicoes: 4811 / 
+
+palavra: ajudar | freq: 1 | posicoes: 4825 / 
+
+palavra: distrairei  | freq: 1 | posicoes: 4836 / 
+
+palavra: ja  | freq: 1 | posicoes: 4857 / 
+
+palavra: vivi  | freq: 1 | posicoes: 4860 / 
+
+palavra: muito | freq: 1 | posicoes: 4865 / 
+
+palavra: morrer  | freq: 1 | posicoes: 4875 / 
+
+palavra: ficarei  | freq: 1 | posicoes: 4882 / 
+
+palavra: feliz  | freq: 1 | posicoes: 4890 / 
+
+palavra: saber  | freq: 1 | posicoes: 4899 / 
+
+palavra: salvar  | freq: 1 | posicoes: 4918 / 
+
+palavra: outros | freq: 1 | posicoes: 4925 / 
+
+palavra: colocaram-se  | freq: 1 | posicoes: 4947 / 
+
+palavra: falaram | freq: 1 | posicoes: 4992 / 
+
+palavra: juntos  | freq: 2 | posicoes: 5002 / 5647 / 
+
+palavra: somos  | freq: 1 | posicoes: 5009 / 
+
+palavra: fortes  | freq: 2 | posicoes: 5020 / 5664 / 
+
+palavra: entrou  | freq: 1 | posicoes: 5081 / 
+
+palavra: expelindo  | freq: 1 | posicoes: 5100 / 
+
+palavra: chuva  | freq: 1 | posicoes: 5114 / 
+
+palavra: pedras  | freq: 1 | posicoes: 5123 / 
+
+palavra: incandescentes | freq: 1 | posicoes: 5130 / 
+
+palavra: marchando  | freq: 1 | posicoes: 5147 / 
+
+palavra: decididos | freq: 1 | posicoes: 5157 / 
+
+palavra: entraram  | freq: 1 | posicoes: 5183 / 
+
+palavra: meio  | freq: 1 | posicoes: 5207 / 
+
+palavra: segui-se  | freq: 1 | posicoes: 5223 / 
+
+palavra: avancou  | freq: 1 | posicoes: 5249 / 
+
+palavra: sobre  | freq: 2 | posicoes: 5257 / 5426 / 
+
+palavra: pinacossauro | freq: 1 | posicoes: 5265 / 
+
+palavra: atacaram  | freq: 1 | posicoes: 5294 / 
+
+palavra: dando  | freq: 1 | posicoes: 5322 / 
+
+palavra: voos  | freq: 1 | posicoes: 5328 / 
+
+palavra: rasantes | freq: 1 | posicoes: 5333 / 
+
+palavra: bicava  | freq: 1 | posicoes: 5343 / 
+
+palavra: olhos | freq: 1 | posicoes: 5355 / 
+
+palavra: demais  | freq: 1 | posicoes: 5365 / 
+
+palavra: encorajados  | freq: 1 | posicoes: 5385 / 
+
+palavra: pelo  | freq: 1 | posicoes: 5397 / 
+
+palavra: exemplo  | freq: 1 | posicoes: 5402 / 
+
+palavra: deles  | freq: 1 | posicoes: 5410 / 
+
+palavra: avancaram  | freq: 1 | posicoes: 5416 / 
+
+palavra: derrubando-o | freq: 1 | posicoes: 5440 / 
+
+palavra: depois | freq: 1 | posicoes: 5459 / 
+
+palavra: caminharam  | freq: 1 | posicoes: 5467 / 
+
+palavra: vitoriosos  | freq: 1 | posicoes: 5478 / 
+
+palavra: viram  | freq: 1 | posicoes: 5509 / 
+
+palavra: maravilhoso  | freq: 1 | posicoes: 5517 / 
+
+palavra: seria  | freq: 1 | posicoes: 5539 / 
+
+palavra: novo  | freq: 1 | posicoes: 5547 / 
+
+palavra: lar | freq: 1 | posicoes: 5552 / 
+
+palavra: daquela  | freq: 1 | posicoes: 5558 / 
+
+palavra: gloriosa  | freq: 1 | posicoes: 5566 / 
+
+palavra: batalha  | freq: 1 | posicoes: 5575 / 
+
+palavra: guardaram  | freq: 1 | posicoes: 5583 / 
+
+palavra: coragem  | freq: 1 | posicoes: 5595 / 
+
+palavra: licao  | freq: 1 | posicoes: 5607 / 
+
+palavra: aprenderam  | freq: 1 | posicoes: 5617 / 
+
+palavra: capazes  | freq: 1 | posicoes: 5673 / 
+
+palavra: realizar  | freq: 1 | posicoes: 5684 / 
+
