@@ -14,7 +14,7 @@
 
 typedef struct no{
     unsigned char caracter;
-    int frequencia; //frequencia do caracter
+    int frequencia; 
     struct no *esquerda, *direita, *proximo;
 }No;
 
@@ -210,7 +210,7 @@ void imprime_dic(char **dic){
     printf("\nDICIONARIO\n");
     for( int i = 0; i< TAM; i++){
         if(strlen(dic[i]) > 0)
-            printf("%3d: %s\n", i, dic[i]);
+            printf("%3c, %3d: %s\n", i, i, dic[i]);
     }
 }
 
@@ -268,7 +268,7 @@ char* decodificar(unsigned char texto[], No *root){
 // compactação
 
 void compactar(unsigned char texto[]){
-    FILE *arquivo = fopen("compactado.moll", "wb");
+    FILE *arquivo = fopen("compactado.huffmanJoao", "wb");
     int i = 0, j = 7;
     unsigned char byte = 0, masc;
 
@@ -306,7 +306,7 @@ unsigned int bit_um(unsigned char byte, int i){
 }
 
 void descompactar(No *root){
-    FILE *arquivo = fopen("compactado.moll", "rb");
+    FILE *arquivo = fopen("compactado.huffmanJoao", "rb");
     unsigned char byte;
     int i;
     No *aux = root;
