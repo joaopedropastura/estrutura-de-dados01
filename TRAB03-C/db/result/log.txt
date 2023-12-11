@@ -1,0 +1,472 @@
+Word: ola, Count: 1, Positions: 0 
+Word: amiguinhos, Count: 1, Positions: 1 
+Word: eu, Count: 4, Positions: 2 479 490 825 
+Word: sou, Count: 3, Positions: 3 480 491 
+Word: o, Count: 29, Positions: 4 26 70 150 218 222 229 256 277 297 350 396 486 603 612 637 684 695 754 774 779 805 818 827 865 893 924 929 934 
+Word: beto, Count: 1, Positions: 5 
+Word: carrero, Count: 1, Positions: 6 
+Word: seja, Count: 1, Positions: 7 
+Word: bem-vindo, Count: 1, Positions: 8 
+Word: ao, Count: 3, Positions: 9 35 847 
+Word: meu, Count: 3, Positions: 10 461 475 
+Word: mundo, Count: 2, Positions: 11 223 
+Word: encantado, Count: 1, Positions: 12 
+Word: vou, Count: 1, Positions: 13 
+Word: contar-lhe, Count: 1, Positions: 14 
+Word: uma, Count: 8, Positions: 15 32 97 113 344 757 871 888 
+Word: linda, Count: 1, Positions: 16 
+Word: historia, Count: 2, Positions: 17 120 
+Word: vamos, Count: 4, Positions: 18 639 660 737 
+Word: viajar, Count: 1, Positions: 19 
+Word: no, Count: 7, Positions: 20 122 369 379 721 729 883 
+Word: tempo, Count: 3, Positions: 21 179 761 
+Word: atraves, Count: 1, Positions: 22 
+Word: da, Count: 8, Positions: 23 245 281 510 561 568 663 885 
+Word: imaginacao, Count: 2, Positions: 24 85 
+Word: descobrir, Count: 2, Positions: 25 57 
+Word: vale, Count: 7, Positions: 27 124 227 576 605 709 723 
+Word: dos, Count: 5, Positions: 28 139 231 412 588 
+Word: dinossauros, Count: 8, Positions: 29 76 118 234 269 629 879 910 
+Word: e, Count: 48, Positions: 30 41 52 86 102 106 112 141 164 178 188 192 201 238 265 295 307 317 348 359 398 442 477 482 485 489 496 501 545 574 591 597 658 683 711 717 741 765 784 811 844 852 896 900 927 943 950 956 
+Word: viver, Count: 3, Positions: 31 111 742 
+Word: grande, Count: 4, Positions: 33 123 226 572 
+Word: aventura, Count: 2, Positions: 34 115 
+Word: lado, Count: 4, Positions: 36 279 848 926 
+Word: de, Count: 23, Positions: 37 66 129 148 172 210 220 254 290 293 312 405 409 417 522 681 701 756 776 787 836 873 958 
+Word: nossos, Count: 1, Positions: 38 
+Word: herois, Count: 1, Positions: 39 
+Word: bront, Count: 20, Positions: 40 107 160 189 286 326 421 438 478 544 552 596 654 674 679 710 814 843 895 949 
+Word: trion, Count: 16, Positions: 42 105 135 187 296 316 328 383 426 492 546 598 712 845 897 951 
+Word: aprenderiras, Count: 1, Positions: 43 
+Word: que, Count: 29, Positions: 44 59 82 110 145 263 301 320 339 349 384 392 429 450 517 528 536 543 566 614 621 638 685 790 822 838 858 932 946 
+Word: a, Count: 21, Positions: 45 78 88 94 100 103 137 252 273 288 556 585 608 618 623 699 703 762 768 941 944 
+Word: verdadeiraam, Count: 1, Positions: 46 
+Word: amizade, Count: 1, Positions: 47 
+Word: supera, Count: 1, Positions: 48 
+Word: todas, Count: 4, Positions: 49 54 283 714 
+Word: as, Count: 7, Positions: 50 55 215 284 690 715 747 
+Word: dificuldadesinos…¡Ümo, Count: 1, Positions: 51 
+Word: vence, Count: 1, Positions: 53 
+Word: barreirascao, Count: 1, Positions: 56 
+Word: tambem, Count: 2, Positions: 58 689 
+Word: unidos, Count: 1, Positions: 60 
+Word: realizamos, Count: 1, Positions: 61 
+Word: grandes, Count: 2, Positions: 62 960 
+Word: facanhasrdadeira;¡’mn, Count: 1, Positions: 63 
+Word: ha, Count: 1, Positions: 64 
+Word: milhoes, Count: 1, Positions: 65 
+Word: anossemp¡ßmu, Count: 1, Positions: 67 
+Word: atras, Count: 1, Positions: 68 
+Word: quandorec¡ûmu, Count: 1, Positions: 69 
+Word: homemo, Count: 1, Positions: 71 
+Word: ainda, Count: 2, Positions: 72 577 
+Word: naotrion¡Ûmr, Count: 1, Positions: 73 
+Word: existia, Count: 2, Positions: 74 570 
+Word: osia, Count: 1, Positions: 75 
+Word: dominavamde, Count: 1, Positions: 77 
+Word: terrano, Count: 1, Positions: 79 
+Word: criaturaso, Count: 1, Positions: 80 
+Word: magnificasa, Count: 1, Positions: 81 
+Word: despertamhomem, Count: 1, Positions: 83 
+Word: nossae, Count: 1, Positions: 84 
+Word: conquistamos, Count: 1, Positions: 87 
+Word: nossas, Count: 2, Positions: 89 739 
+Word: admiracao, Count: 1, Positions: 90 
+Word: numa, Count: 1, Positions: 91 
+Word: epoca, Count: 1, Positions: 92 
+Word: ondem, Count: 1, Positions: 93 
+Word: sobrevivenciaterÜ¡õmc, Count: 1, Positions: 95 
+Word: eratem, Count: 1, Positions: 96 
+Word: luta, Count: 4, Positions: 98 173 345 889 
+Word: entrea, Count: 1, Positions: 99 
+Word: forcase, Count: 1, Positions: 101 
+Word: agilidadevencia, Count: 1, Positions: 104 
+Word: noshas, Count: 1, Positions: 108 
+Word: mostraraonificasÓ¡Šm, Count: 1, Positions: 109 
+Word: verdadeira, Count: 1, Positions: 114 
+Word: entre, Count: 2, Positions: 116 153 
+Word: oslamou, Count: 1, Positions: 117 
+Word: nossar, Count: 1, Positions: 119 
+Word: comecataŸ ·mi;, Count: 1, Positions: 121 
+Word: ummer, Count: 1, Positions: 125 
+Word: lugar, Count: 3, Positions: 126 667 931 
+Word: ondemas, Count: 1, Positions: 127 
+Word: familiast, Count: 1, Positions: 128 
+Word: variasocÓ ma], Count: 1, Positions: 130 
+Word: especiesR, Count: 1, Positions: 131 
+Word: convivemistoria, Count: 1, Positions: 132 
+Word: emveitanå }muX, Count: 1, Positions: 133 
+Word: paz, Count: 1, Positions: 134 
+Word: pertenceos, Count: 1, Positions: 136 
+Word: familiah‡ _maG, Count: 1, Positions: 138 
+Word: triceratopsao, Count: 1, Positions: 140 
+Word: um, Count: 12, Positions: 142 165 260 466 469 518 523 571 633 666 786 807 
+Word: jovemuemù QmnJ, Count: 1, Positions: 143 
+Word: dinossauroria, Count: 1, Positions: 144 
+Word: seou, Count: 1, Positions: 146 
+Word: orgulhalÿ WmqK, Count: 1, Positions: 147 
+Word: serpara, Count: 1, Positions: 149 
+Word: melhorru3 +mom, Count: 1, Positions: 151 
+Word: lutador, Count: 1, Positions: 152 
+Word: seusdor, Count: 1, Positions: 154 
+Word: irmaost, Count: 1, Positions: 155 
+Word: ninguem  1m, Count: 1, Positions: 156 
+Word: podedesc7 /mso, Count: 1, Positions: 157 
+Word: comva, Count: 1, Positions: 158 
+Word: elealou, Count: 1, Positions: 159 
+Word: porr, Count: 1, Positions: 161 
+Word: suaai, Count: 1, Positions: 162 
+Word: vezscans= m, Count: 1, Positions: 163 
+Word: brontossaurontar‰¡Àm, Count: 1, Positions: 166 
+Word: conhecido, Count: 1, Positions: 167 
+Word: comodo, Count: 1, Positions: 168 
+Word: "pescocudo", Count: 2, Positions: 169 357 
+Word: naoore, Count: 1, Positions: 170 
+Word: gosta, Count: 1, Positions: 171 
+Word: prefere, Count: 1, Positions: 174 
+Word: usar, Count: 1, Positions: 175 
+Word: sua, Count: 5, Positions: 176 270 444 625 635 
+Word: energia, Count: 1, Positions: 177 
+Word: explorando, Count: 1, Positions: 180 
+Word: novos, Count: 1, Positions: 181 
+Word: lugares, Count: 1, Positions: 182 
+Word: emboraicO¡‡ms#, Count: 1, Positions: 183 
+Word: sejam, Count: 1, Positions: 184 
+Word: tao, Count: 1, Positions: 185 
+Word: diferentes, Count: 2, Positions: 186 692 
+Word: sao, Count: 2, Positions: 190 340 
+Word: amigos, Count: 1, Positions: 191 
+Word: estao, Count: 2, Positions: 193 731 
+Word: sempre, Count: 1, Positions: 194 
+Word: juntos, Count: 3, Positions: 195 854 952 
+Word: como, Count: 4, Positions: 196 387 558 693 
+Word: cada, Count: 2, Positions: 197 632 
+Word: familia, Count: 1, Positions: 198 
+Word: se, Count: 8, Positions: 199 203 520 610 630 726 749 832 
+Word: ajudava, Count: 1, Positions: 200 
+Word: nao, Count: 13, Positions: 202 208 299 334 376 402 472 504 512 534 645 725 759 
+Word: misturava, Count: 1, Positions: 204 
+Word: com, Count: 7, Positions: 205 214 354 395 460 800 948 
+Word: os, Count: 11, Positions: 206 240 267 515 628 643 651 670 794 878 908 
+Word: demais, Count: 2, Positions: 207 909 
+Word: gostavame, Count: 1, Positions: 209 
+Word: ver, Count: 4, Positions: 211 364 499 602 
+Word: seus, Count: 3, Positions: 212 236 906 
+Word: filhos, Count: 1, Positions: 213 
+Word: outras, Count: 1, Positions: 216 
+Word: especiesr, Count: 1, Positions: 217 
+Word: desejo, Count: 1, Positions: 219 
+Word: conhecerF, Count: 1, Positions: 221 
+Word: alem, Count: 6, Positions: 224 244 280 560 567 662 
+Word: do, Count: 5, Positions: 225 319 708 733 849 
+Word: era, Count: 8, Positions: 228 259 272 385 464 513 559 698 
+Word: sonho, Count: 1, Positions: 230 
+Word: dois, Count: 2, Positions: 232 589 
+Word: jovens, Count: 2, Positions: 233 644 
+Word: porem, Count: 2, Positions: 235 697 
+Word: pais, Count: 1, Positions: 237 
+Word: todos, Count: 4, Positions: 239 514 527 745 
+Word: outros, Count: 4, Positions: 241 268 795 842 
+Word: temiam, Count: 1, Positions: 242 
+Word: ir, Count: 1, Positions: 243 
+Word: montanhav, Count: 1, Positions: 246 
+Word: vermelhaonvivem, Count: 1, Positions: 247 
+Word: pois, Count: 3, Positions: 248 337 360 
+Word: logo, Count: 4, Positions: 249 399 553 919 
+Word: adiante, Count: 1, Positions: 250 
+Word: ficava, Count: 1, Positions: 251 
+Word: caverna, Count: 7, Positions: 253 271 636 700 769 882 886 
+Word: tirano, Count: 10, Positions: 255 258 702 777 792 828 859 890 899 917 
+Word: terrivel, Count: 1, Positions: 257 
+Word: tiranossauro, Count: 1, Positions: 261 
+Word: rex, Count: 1, Positions: 262 
+Word: atacava, Count: 1, Positions: 264 
+Word: devorava, Count: 1, Positions: 266 
+Word: unica, Count: 2, Positions: 274 704 
+Word: passagem, Count: 2, Positions: 275 705 
+Word: para, Count: 13, Positions: 276 373 381 436 525 595 668 706 767 793 813 840 923 
+Word: outro, Count: 4, Positions: 278 575 604 925 
+Word: montanha, Count: 5, Positions: 282 562 569 609 664 
+Word: manhas, Count: 1, Positions: 285 
+Word: sai, Count: 1, Positions: 287 
+Word: procura, Count: 1, Positions: 289 
+Word: novas, Count: 2, Positions: 291 594 
+Word: especies, Count: 1, Positions: 292 
+Word: plantas, Count: 2, Positions: 294 306 
+Word: acompanha, Count: 1, Positions: 298 
+Word: sei, Count: 1, Positions: 300 
+Word: graca, Count: 1, Positions: 302 
+Word: tem, Count: 3, Positions: 303 335 789 
+Word: ficar, Count: 2, Positions: 304 321 
+Word: procurando, Count: 1, Positions: 305 
+Word: tudo, Count: 1, Positions: 308 
+Word: igual, Count: 1, Positions: 309 
+Word: na, Count: 5, Positions: 310 530 770 782 881 
+Word: hora, Count: 3, Positions: 311 752 864 
+Word: comer, Count: 2, Positions: 313 382 
+Word: -, Count: 9, Positions: 314 324 419 424 427 463 641 649 802 
+Word: reclamou, Count: 1, Positions: 315 
+Word: melhor, Count: 1, Positions: 318 
+Word: batendo, Count: 1, Positions: 322 
+Word: chifres, Count: 2, Positions: 323 414 
+Word: falou, Count: 7, Positions: 325 425 507 565 680 803 815 
+Word: ofendido, Count: 1, Positions: 327 
+Word: disse, Count: 6, Positions: 329 400 420 659 785 817 
+Word: voce, Count: 5, Positions: 330 355 374 430 497 
+Word: fala, Count: 1, Positions: 331 
+Word: assim, Count: 1, Positions: 332 
+Word: porque, Count: 1, Positions: 333 
+Word: nenhum, Count: 1, Positions: 336 
+Word: saiba, Count: 1, Positions: 338 
+Word: muito, Count: 2, Positions: 341 831 
+Word: bons, Count: 1, Positions: 342 
+Word: em, Count: 5, Positions: 343 454 581 634 868 
+Word: afinal, Count: 1, Positions: 346 
+Word: quem, Count: 4, Positions: 347 365 488 500 
+Word: defende, Count: 1, Positions: 351 
+Word: quando, Count: 3, Positions: 352 375 541 
+Word: implicam, Count: 1, Positions: 353 
+Word: hein, Count: 1, Positions: 356 
+Word: pescocudo, Count: 1, Positions: 358 
+Word: bem, Count: 2, Positions: 361 423 
+Word: quero, Count: 1, Positions: 362 
+Word: so, Count: 2, Positions: 363 449 
+Word: vai, Count: 3, Positions: 366 498 861 
+Word: apanhar, Count: 1, Positions: 367 
+Word: folhas, Count: 7, Positions: 368 391 435 448 540 593 691 
+Word: alto, Count: 1, Positions: 370 
+Word: das, Count: 1, Positions: 371 
+Word: arvores, Count: 1, Positions: 372 
+Word: tiver, Count: 1, Positions: 377 
+Word: nada, Count: 2, Positions: 378 648 
+Word: chao, Count: 1, Positions: 380 
+Word: comilao, Count: 1, Positions: 386 
+Word: ninguem, Count: 2, Positions: 388 860 
+Word: pensou, Count: 1, Positions: 389 
+Word: nas, Count: 1, Positions: 390 
+Word: perderia, Count: 1, Positions: 393 
+Word: brigando, Count: 1, Positions: 394 
+Word: amigo, Count: 1, Positions: 397 
+Word: desculpe, Count: 2, Positions: 401 471 
+Word: lhe, Count: 1, Positions: 403 
+Word: chamarei, Count: 1, Positions: 404 
+Word: pescocudo, Count: 1, Positions: 406 
+Word: mas, Count: 2, Positions: 407 724 
+Word: pare, Count: 2, Positions: 408 416 
+Word: falar, Count: 1, Positions: 410 
+Word: mal, Count: 1, Positions: 411 
+Word: meus, Count: 1, Positions: 413 
+Word: entao, Count: 1, Positions: 415 
+Word: reclamar, Count: 1, Positions: 418 
+Word: estaD, Count: 1, Positions: 422 
+Word: aproveitando, Count: 1, Positions: 428 
+Word: esta, Count: 1, Positions: 431 
+Word: perto, Count: 1, Positions: 432 
+Word: apanhe, Count: 1, Positions: 433 
+Word: algumas, Count: 2, Positions: 434 447 
+Word: mim, Count: 1, Positions: 437 
+Word: esticou, Count: 1, Positions: 439 
+Word: seu, Count: 3, Positions: 440 451 656 
+Word: pescoco, Count: 2, Positions: 441 657 
+Word: abrindo, Count: 1, Positions: 443 
+Word: boca, Count: 1, Positions: 445 
+Word: colheu, Count: 1, Positions: 446 
+Word: dente, Count: 1, Positions: 452 
+Word: bateu, Count: 1, Positions: 453 
+Word: algo, Count: 1, Positions: 455 
+Word: ai, Count: 3, Positions: 456 457 458 
+Word: cuidado, Count: 1, Positions: 459 
+Word: bico, Count: 1, Positions: 462 
+Word: ptolomeu, Count: 1, Positions: 465 
+Word: jovem, Count: 2, Positions: 467 819 
+Word: pterodactilo, Count: 1, Positions: 468 
+Word: voador, Count: 2, Positions: 470 519 
+Word: queria, Count: 1, Positions: 473 
+Word: machuca-lo, Count: 1, Positions: 474 
+Word: nome8, Count: 1, Positions: 476 
+Word: ptolomeu£, Count: 1, Positions: 481 
+Word: estava, Count: 2, Positions: 483 615 
+Word: descansando, Count: 1, Positions: 484 
+Word: chifrudinho, Count: 2, Positions: 487 502 
+Word: desca, Count: 1, Positions: 493 
+Word: dessa, Count: 1, Positions: 494 
+Word: arvore, Count: 2, Positions: 495 511 
+Word: calma, Count: 1, Positions: 503 
+Word: quis, Count: 1, Positions: 505 
+Word: ofender, Count: 1, Positions: 506 
+Word: ptolomeu , Count: 1, Positions: 508 
+Word: descendov, Count: 1, Positions: 509 
+Word: dias, Count: 1, Positions: 516 
+Word: aproximava, Count: 1, Positions: 521 
+Word: dinossauro, Count: 1, Positions: 524 
+Word: elesGc, Count: 1, Positions: 526 
+Word: andavam, Count: 1, Positions: 529 
+Word: terra, Count: 1, Positions: 531 
+Word: queriam, Count: 2, Positions: 532 601 
+Word: devora-los, Count: 1, Positions: 533 
+Word: sabiam, Count: 1, Positions: 535 
+Word: alguns, Count: 1, Positions: 537 
+Word: comiam, Count: 1, Positions: 538 
+Word: apenas, Count: 1, Positions: 539 
+Word: descobriu, Count: 1, Positions: 542 
+Word: eram, Count: 2, Positions: 547 953 
+Word: herbivoros, Count: 1, Positions: 548 
+Word: ptolomeu, Count: 1, Positions: 549 
+Word: ficou, Count: 1, Positions: 550 
+Word: tranquilo, Count: 1, Positions: 551 
+Word: foi, Count: 2, Positions: 554 839 
+Word: perguntando, Count: 1, Positions: 555 
+Word: ptolomeu, Count: 1, Positions: 557 
+Word: vermelha, Count: 1, Positions: 563 
+Word: ptolomeu, Count: 1, Positions: 564 
+Word: lago, Count: 1, Positions: 573 
+Word: maior, Count: 1, Positions: 578 
+Word: daquele, Count: 1, Positions: 579 
+Word: dia, Count: 1, Positions: 580 
+Word: diante, Count: 2, Positions: 582 732 
+Word: ptolomeu, Count: 1, Positions: 583 
+Word: passou, Count: 1, Positions: 584 
+Word: ser, Count: 1, Positions: 586 
+Word: amigo, Count: 1, Positions: 587 
+Word: voava, Count: 1, Positions: 590 
+Word: trazia, Count: 1, Positions: 592 
+Word: crescia, Count: 1, Positions: 599 
+Word: eles, Count: 1, Positions: 600 
+Word: certa, Count: 1, Positions: 606 
+Word: manha, Count: 1, Positions: 607 
+Word: agitou, Count: 1, Positions: 611 
+Word: vulcao, Count: 2, Positions: 613 866 
+Word: adormecido, Count: 1, Positions: 616 
+Word: comecou, Count: 1, Positions: 617 
+Word: dar, Count: 1, Positions: 619 
+Word: sinal, Count: 1, Positions: 620 
+Word: voltaria, Count: 1, Positions: 622 
+Word: expedir, Count: 1, Positions: 624 
+Word: lava, Count: 1, Positions: 626 
+Word: assustados, Count: 1, Positions: 627 
+Word: reuniram, Count: 1, Positions: 631 
+Word: fazer, Count: 2, Positions: 640 647 
+Word: perguntavam, Count: 1, Positions: 642 
+Word: podemos, Count: 1, Positions: 646 
+Word: diziam, Count: 1, Positions: 650 
+Word: mais, Count: 4, Positions: 652 671 856 954 
+Word: velhos, Count: 2, Positions: 653 672 
+Word: levantou, Count: 1, Positions: 655 
+Word: embora, Count: 1, Positions: 661 
+Word: existe, Count: 1, Positions: 665 
+Word: nos, Count: 3, Positions: 669 788 823 
+Word: repreenderamÀŠd, Count: 1, Positions: 673 
+Word: ele, Count: 2, Positions: 675 686 
+Word: deveria, Count: 1, Positions: 676 
+Word: estar, Count: 1, Positions: 677 
+Word: sonhando, Count: 1, Positions: 678 
+Word: ptolomeuE, Count: 1, Positions: 682 
+Word: viu, Count: 1, Positions: 687 
+Word: trouxe, Count: 1, Positions: 688 
+Word: prova, Count: 1, Positions: 694 
+Word: desafio, Count: 1, Positions: 696 
+Word: sair, Count: 1, Positions: 707 
+Word: reuniram, Count: 1, Positions: 713 
+Word: familias., Count: 1, Positions: 716 
+Word: disseram, Count: 1, Positions: 718 
+Word: voces, Count: 1, Positions: 719 
+Word: vivem, Count: 1, Positions: 720 
+Word: mesmo, Count: 2, Positions: 722 734 
+Word: ajudam, Count: 1, Positions: 727 
+Word: agora, Count: 1, Positions: 728 
+Word: entanto, Count: 1, Positions: 730 
+Word: perigo, Count: 1, Positions: 735 
+Word: escolhamÄ, Count: 1, Positions: 736 
+Word: unir, Count: 1, Positions: 738 
+Word: forcas, Count: 1, Positions: 740 
+Word: ou, Count: 1, Positions: 743 
+Word: iremos, Count: 1, Positions: 744 
+Word: morrer, Count: 3, Positions: 746 833 862 
+Word: familiasç, Count: 1, Positions: 748 
+Word: olharam, Count: 1, Positions: 750 
+Word: naquela, Count: 2, Positions: 751 863 
+Word: ouviram, Count: 1, Positions: 753 
+Word: barulho, Count: 1, Positions: 755 
+Word: erupcao, Count: 2, Positions: 758 869 
+Word: tinham, Count: 1, Positions: 760 
+Word: perder, Count: 1, Positions: 763 
+Word: reuniram-se, Count: 1, Positions: 764 
+Word: marcharam, Count: 1, Positions: 766 
+Word: entrada, Count: 1, Positions: 771 
+Word: podiam, Count: 1, Positions: 772 
+Word: ouvir, Count: 1, Positions: 773 
+Word: rugido, Count: 1, Positions: 775 
+Word: tegaro, Count: 1, Positions: 778 
+Word: estegossauroN, Count: 1, Positions: 780 
+Word: adiantou-se, Count: 2, Positions: 781 810 
+Word: fila, Count: 1, Positions: 783 
+Word: distrair}, Count: 1, Positions: 791 
+Word: passarem¾, Count: 1, Positions: 796 
+Word: esse, Count: 1, Positions: 797 
+Word: alguem, Count: 1, Positions: 798 
+Word: morrera, Count: 1, Positions: 799 
+Word: certeza, Count: 1, Positions: 801 
+Word: guanon, Count: 1, Positions: 804 
+Word: iguanodonte, Count: 1, Positions: 806 
+Word: velho, Count: 2, Positions: 808 850 
+Word: pinacossauro¼, Count: 1, Positions: 809 
+Word: olhando, Count: 1, Positions: 812 
+Word: -como, Count: 1, Positions: 816 
+Word: pescocudo, Count: 1, Positions: 820 
+Word: temos, Count: 1, Positions: 821 
+Word: ajudar, Count: 1, Positions: 824 
+Word: distrairei, Count: 1, Positions: 826 
+Word: ja, Count: 1, Positions: 829 
+Word: vivi, Count: 1, Positions: 830 
+Word: ficarei, Count: 1, Positions: 834 
+Word: feliz, Count: 1, Positions: 835 
+Word: saber, Count: 1, Positions: 837 
+Word: salvar, Count: 1, Positions: 841 
+Word: colocaram-seê, Count: 1, Positions: 846 
+Word: pinacossauro, Count: 2, Positions: 851 894 
+Word: falaram, Count: 1, Positions: 853 
+Word: somos, Count: 1, Positions: 855 
+Word: fortes, Count: 2, Positions: 857 955 
+Word: entrou, Count: 1, Positions: 867 
+Word: expelindo, Count: 1, Positions: 870 
+Word: chuva, Count: 1, Positions: 872 
+Word: pedras, Count: 1, Positions: 874 
+Word: incandescentes, Count: 1, Positions: 875 
+Word: marchando, Count: 1, Positions: 876 
+Word: decididos, Count: 1, Positions: 877 
+Word: entraram, Count: 1, Positions: 880 
+Word: meioÆ, Count: 1, Positions: 884 
+Word: segui-se, Count: 1, Positions: 887 
+Word: avancou, Count: 1, Positions: 891 
+Word: sobre, Count: 2, Positions: 892 916 
+Word: atacaram, Count: 1, Positions: 898 
+Word: ptolomeu, Count: 1, Positions: 901 
+Word: dando, Count: 1, Positions: 902 
+Word: voos, Count: 1, Positions: 903 
+Word: rasantes, Count: 1, Positions: 904 
+Word: bicava, Count: 1, Positions: 905 
+Word: olhos, Count: 1, Positions: 907 
+Word: encorajados, Count: 1, Positions: 911 
+Word: pelo, Count: 1, Positions: 912 
+Word: exemplom¡Çm, Count: 1, Positions: 913 
+Word: deles, Count: 1, Positions: 914 
+Word: avancaram, Count: 1, Positions: 915 
+Word: derrubando-o, Count: 1, Positions: 918 
+Word: depois, Count: 1, Positions: 920 
+Word: caminharam, Count: 1, Positions: 921 
+Word: vitoriosos, Count: 1, Positions: 922 
+Word: viram, Count: 1, Positions: 928 
+Word: maravilhoso, Count: 1, Positions: 930 
+Word: seria, Count: 1, Positions: 933 
+Word: novo, Count: 1, Positions: 935 
+Word: lar, Count: 1, Positions: 936 
+Word: daquela, Count: 1, Positions: 937 
+Word: gloriosa, Count: 1, Positions: 938 
+Word: batalha, Count: 1, Positions: 939 
+Word: guardaram, Count: 1, Positions: 940 
+Word: coragem, Count: 1, Positions: 942 
+Word: licao, Count: 1, Positions: 945 
+Word: aprenderam, Count: 1, Positions: 947 
+Word: capazes, Count: 1, Positions: 957 
+Word: realizarX, Count: 1, Positions: 959 
+Word: facanhas, Count: 1, Positions: 961 

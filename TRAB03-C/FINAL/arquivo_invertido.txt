@@ -1,0 +1,220 @@
+palavra: amiguinhos | freq: 1 | posicoes: 4 / 
+
+palavra: carrero | freq: 1 | posicoes: 30 / 
+
+palavra: encantado | freq: 1 | posicoes: 67 / 
+
+palavra: historia | freq: 1 | posicoes: 103 / 
+
+palavra: imaginacao | freq: 1 | posicoes: 146 / 
+
+palavra: trion | freq: 5 | posicoes: 252 / 1873 / 2487 / 2869 / 5639 / 
+
+palavra: barreiras | freq: 1 | posicoes: 339 / 
+
+palavra: facanhas | freq: 2 | posicoes: 397 / 5700 / 
+
+palavra: atras | freq: 1 | posicoes: 427 / 
+
+palavra: existia | freq: 1 | posicoes: 459 / 
+
+palavra: terra | freq: 1 | posicoes: 495 / 
+
+palavra: admiracao | freq: 1 | posicoes: 575 / 
+
+palavra: agilidade | freq: 1 | posicoes: 649 / 
+
+palavra: dinossauros | freq: 4 | posicoes: 733 / 1405 / 1611 / 5371 / 
+
+palavra: vale | freq: 4 | posicoes: 779 / 3539 / 4137 / 4217 / 
+
+palavra: paz | freq: 1 | posicoes: 839 / 
+
+palavra: triceratops | freq: 1 | posicoes: 873 / 
+
+palavra: irmaos | freq: 1 | posicoes: 958 / 
+
+palavra: ele | freq: 1 | posicoes: 983 / 
+
+palavra: brontossauro | freq: 1 | posicoes: 1011 / 
+
+palavra: pescocudo | freq: 5 | posicoes: 1041 / 2099 / 2111 / 2377 / 4798 / 
+
+palavra: luta | freq: 3 | posicoes: 1066 / 2032 / 5235 / 
+
+palavra: lugares | freq: 1 | posicoes: 1122 / 
+
+palavra: diferentes | freq: 1 | posicoes: 1149 / 
+
+palavra: juntos | freq: 1 | posicoes: 1201 / 
+
+palavra: demais | freq: 1 | posicoes: 1264 / 
+
+palavra: especies | freq: 1 | posicoes: 1318 / 
+
+palavra: vermelha | freq: 2 | posicoes: 1479 / 3302 / 
+
+palavra: tirano | freq: 7 | posicoes: 1527 / 4099 / 4532 / 4847 / 5029 / 5302 / 5431 / 
+
+palavra: terrivel | freq: 1 | posicoes: 1537 / 
+
+palavra: lado | freq: 1 | posicoes: 1670 / 
+
+palavra: montanha | freq: 1 | posicoes: 1684 / 
+
+palavra: manhas | freq: 1 | posicoes: 1704 / 
+
+palavra: plantas | freq: 2 | posicoes: 1753 / 1822 / 
+
+palavra: acompanha | freq: 1 | posicoes: 1772 / 
+
+palavra: comer | freq: 2 | posicoes: 1855 / 2237 / 
+
+palavra: chifres | freq: 2 | posicoes: 1910 / 2419 / 
+
+palavra: bront | freq: 4 | posicoes: 1927 / 2460 / 2792 / 3942 / 
+
+palavra: disse | freq: 4 | posicoes: 1949 / 2340 / 3850 / 4585 / 
+
+palavra: nenhum | freq: 1 | posicoes: 1987 / 
+
+palavra: voce | freq: 1 | posicoes: 2086 / 
+
+palavra: hein | freq: 1 | posicoes: 2092 / 
+
+palavra: e | freq: 2 | posicoes: 2122 / 2859 / 
+
+palavra: bem | freq: 2 | posicoes: 2130 / 2472 / 
+
+palavra: ninguem | freq: 1 | posicoes: 2272 / 
+
+palavra: desculpe | freq: 2 | posicoes: 2347 / 2748 / 
+
+palavra: reclamar | freq: 1 | posicoes: 2442 / 
+
+palavra: perto | freq: 1 | posicoes: 2523 / 
+
+palavra: mim | freq: 1 | posicoes: 2557 / 
+
+palavra: folhas | freq: 2 | posicoes: 2624 / 3152 / 
+
+palavra: algo | freq: 1 | posicoes: 2658 / 
+
+palavra: ai | freq: 3 | posicoes: 2664 / 2668 / 2672 / 
+
+palavra: bico | freq: 1 | posicoes: 2692 / 
+
+palavra: ptolomeu | freq: 1 | posicoes: 2704 / 
+
+palavra: pterodactilo | freq: 1 | posicoes: 2723 / 
+
+palavra: voador | freq: 1 | posicoes: 2740 / 
+
+palavra: machuca-lo | freq: 1 | posicoes: 2769 / 
+
+palavra: descansando | freq: 1 | posicoes: 2824 / 
+
+palavra: chifrudinho | freq: 2 | posicoes: 2841 / 2917 / 
+
+palavra: calma | freq: 1 | posicoes: 2930 / 
+
+palavra: ofender | freq: 1 | posicoes: 2946 / 
+
+palavra: arvore | freq: 1 | posicoes: 2982 / 
+
+palavra: dinossauro | freq: 1 | posicoes: 3047 / 
+
+palavra: eles | freq: 1 | posicoes: 3064 / 
+
+palavra: tranquilo | freq: 1 | posicoes: 3226 / 
+
+palavra: maior | freq: 1 | posicoes: 3390 / 
+
+palavra: diante | freq: 1 | posicoes: 3412 / 
+
+palavra: dois | freq: 1 | posicoes: 3452 / 
+
+palavra: crescia | freq: 1 | posicoes: 3505 / 
+
+palavra: manha | freq: 1 | posicoes: 3552 / 
+
+palavra: agitou | freq: 1 | posicoes: 3573 / 
+
+palavra: lava | freq: 1 | posicoes: 3659 / 
+
+palavra: caverna | freq: 3 | posicoes: 3718 / 4487 / 5194 / 
+
+palavra: fazer | freq: 1 | posicoes: 3739 / 
+
+palavra: jovens | freq: 1 | posicoes: 3763 / 
+
+palavra: nada | freq: 1 | posicoes: 3789 / 
+
+palavra: velhos | freq: 1 | posicoes: 3812 / 
+
+palavra: embora | freq: 1 | posicoes: 3863 / 
+
+palavra: nos | freq: 1 | posicoes: 3909 / 
+
+palavra: sonhando | freq: 1 | posicoes: 3967 / 
+
+palavra: viu | freq: 1 | posicoes: 4014 / 
+
+palavra: prova | freq: 1 | posicoes: 4059 / 
+
+palavra: disseram | freq: 1 | posicoes: 4186 / 
+
+palavra: ajudam | freq: 1 | posicoes: 4234 / 
+
+palavra: entanto | freq: 1 | posicoes: 4251 / 
+
+palavra: perigo | freq: 1 | posicoes: 4282 / 
+
+palavra: escolham | freq: 1 | posicoes: 4290 / 
+
+palavra: morrer | freq: 2 | posicoes: 4349 / 5049 / 
+
+palavra: olharam | freq: 1 | posicoes: 4373 / 
+
+palavra: erupcao | freq: 2 | posicoes: 4420 / 5090 / 
+
+palavra: perder | freq: 1 | posicoes: 4448 / 
+
+palavra: tegaro | freq: 1 | posicoes: 4540 / 
+
+palavra: passarem | freq: 1 | posicoes: 4641 / 
+
+palavra: certeza | freq: 1 | posicoes: 4675 / 
+
+palavra: guanon | freq: 1 | posicoes: 4692 / 
+
+palavra: iguanodonte | freq: 1 | posicoes: 4702 / 
+
+palavra: adiantou-se | freq: 1 | posicoes: 4737 / 
+
+palavra: falou | freq: 1 | posicoes: 4771 / 
+
+palavra: ajudar | freq: 1 | posicoes: 4823 / 
+
+palavra: muito | freq: 1 | posicoes: 4863 / 
+
+palavra: outros | freq: 1 | posicoes: 4923 / 
+
+palavra: falaram | freq: 1 | posicoes: 4991 / 
+
+palavra: incandescentes | freq: 1 | posicoes: 5129 / 
+
+palavra: decididos | freq: 1 | posicoes: 5156 / 
+
+palavra: pinacossauro | freq: 1 | posicoes: 5264 / 
+
+palavra: rasantes | freq: 1 | posicoes: 5332 / 
+
+palavra: olhos | freq: 1 | posicoes: 5354 / 
+
+palavra: derrubando-o | freq: 1 | posicoes: 5439 / 
+
+palavra: depois | freq: 1 | posicoes: 5458 / 
+
+palavra: lar | freq: 1 | posicoes: 5551 / 
+
